@@ -42,7 +42,7 @@ export function QuestionForm({ loading, onAsk }: Props) {
           id="q"
           rows={3}
           required
-          placeholder="Ask about the contracts, e.g. who guarantees the supplier's obligations?"
+          placeholder="Ask like an on-call engineer, e.g. who do I page if checkout-api fails?"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
           onKeyDown={onKeyDown}

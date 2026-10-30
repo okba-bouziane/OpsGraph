@@ -31,7 +31,7 @@ function toVisNode(n: SubgraphNode, t: ReturnType<typeof theme>): Node {
     id: n.id,
     label: n.name,
     title: n.title || n.type,
-    shape: n.type === "Party" ? "ellipse" : "box",
+    shape: n.type === "Person" || n.type === "Alert" ? "ellipse" : "box",
     margin: { top: 8, right: 12, bottom: 8, left: 12 },
     shapeProperties: { borderRadius: 8 },
     color: {

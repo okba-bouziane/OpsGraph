@@ -4,8 +4,8 @@ os.environ["LLM_API_KEY"] = ""  # tests never call a live model
 
 import pytest
 
-from lexgraph.graph import GraphDB
-from lexgraph.ingest import ingest
+from opsgraph.graph import GraphDB
+from opsgraph.ingest import ingest
 
 NEO4J_DOWN = "Neo4j is not reachable (start it with `docker compose up -d neo4j`)"
 
@@ -25,6 +25,6 @@ def db():
 
 @pytest.fixture(scope="session")
 def retriever(db):
-    from lexgraph.retrieval import Retriever
+    from opsgraph.retrieval import Retriever
 
     return Retriever(db)

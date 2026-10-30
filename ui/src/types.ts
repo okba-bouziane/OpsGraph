@@ -1,4 +1,4 @@
-// Shapes of the LexGraph API responses (see lexgraph/api.py).
+// Shapes of the OpsGraph API responses (see opsgraph/api.py).
 
 export type Retriever = "auto" | "vector" | "graph" | "hybrid";
 

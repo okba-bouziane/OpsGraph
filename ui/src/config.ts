@@ -8,22 +8,23 @@ export const API_BASE =
 
 // Node colours in the graph view, one per entity type.
 export const COLORS: Record<string, string> = {
-  Party: "#2457d6",
-  Contract: "#157347",
-  Amendment: "#b45309",
-  Guarantee: "#8a3ffc",
-  Notice: "#c2410c",
-  Policy: "#657080",
-  Memo: "#0e7490",
+  Service: "#2457d6",
+  Team: "#157347",
+  Rota: "#0e7490",
+  Runbook: "#b45309",
+  Postmortem: "#c2410c",
+  Decision: "#8a3ffc",
+  Person: "#657080",
+  Alert: "#be123c",
 };
 
 // Clickable example questions under the form.
 export const SAMPLES = [
-  "Which company guarantees Djazair Cloud's obligations under the Cloud Hosting Agreement?",
-  "What monthly fee does Sahel Agro now pay Djazair Cloud under the Cloud Hosting Agreement as amended?",
-  "Which parent company guarantees the supplier's obligations under the Master Supply Agreement?",
-  "Which company owns the carrier under the Transport Services Agreement?",
-  "Which data centre are the Sahel Agro systems moving to?",
+  "Who is the primary on-call engineer for checkout-api?",
+  "PaymentDeclineRateHigh fired. Which runbook applies, and who is the escalation contact?",
+  "What breaks if main-db goes down?",
+  "What was decided after the card payment outage of August 2025?",
+  "Which team owns the service that caused the Ramadan sale outage?",
 ];
 
 export const RETRIEVER_OPTIONS = [
@@ -34,6 +35,6 @@ export const RETRIEVER_OPTIONS = [
 ] as const;
 
 // Neighbour types left out of the node detail (many of them, not useful for navigation).
-export const HIDDEN_NEIGHBOUR_TYPES = ["Clause", "Obligation"];
+export const HIDDEN_NEIGHBOUR_TYPES = ["ActionItem", "Date"];
 export const MAX_NEIGHBOURS = 14;
 export const CITATION_PREVIEW = 260;

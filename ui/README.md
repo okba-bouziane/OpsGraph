@@ -1,4 +1,4 @@
-# LexGraph web UI
+# OpsGraph web UI
 
 React 19 + Vite + TypeScript. Built to static files and served by nginx (port 8090 in `docker compose`).
 

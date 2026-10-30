@@ -21,7 +21,7 @@ async function ask(page, q, retriever) {
   const visible = process.env.HEADLESS === "0";
   const browser = await puppeteer.launch({ executablePath: CHROME, headless: visible ? false : "new", defaultViewport: visible ? null : undefined, args: ["--no-sandbox", ...(visible ? ["--start-maximized", "--window-position=0,0", "--window-size=1512,982"] : [])] });
   const page = (await browser.pages())[0] || (await browser.newPage());
-  if (!visible) await page.setViewport({ width: 1280, height: 800 });
+  if (!visible) await page.setViewport({ width: 1512, height: 982 });
   else {
     const cdp = await page.createCDPSession();
     const { windowId } = await cdp.send("Browser.getWindowForTarget");
@@ -31,12 +31,12 @@ async function ask(page, q, retriever) {
   await page.goto("http://localhost:8090/", { waitUntil: "networkidle0" });
   const rec = await page.screencast({ path: OUT + "demo.mp4" });
   await sleep(4000);
-  await ask(page, "Which company guarantees Djazair Cloud's obligations under the Cloud Hosting Agreement?", "graph");
-  await ask(page, "What monthly fee does Sahel Agro now pay Djazair Cloud under the Cloud Hosting Agreement as amended?", "graph");
+  await ask(page, "Who is the primary on-call engineer for checkout-api?", "auto");
+  await ask(page, "SmsQueueBacklog fired at night: who is on call for the notifications worker?", "auto");
   await page.evaluate(() => window.scrollTo(0, 400));
   await sleep(3000);
   await page.evaluate(() => window.scrollTo(0, 0));
-  await ask(page, "How many days does Sahel Agro now have to pay Tassili Emballage invoices under the Master Supply Agreement as amended?", "hybrid");
+  await ask(page, "What breaks if main-db goes down?", "graph");
   // The screencast drops the last frames on stop, so nudge the page and hold the final answer for a while.
   for (let i = 0; i < 8; i++) {
     await page.evaluate((y) => window.scrollTo(0, y), i % 2);

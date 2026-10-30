@@ -1,12 +1,13 @@
-from lexgraph import config
-from lexgraph.graph import (
+from opsgraph import config
+from opsgraph.graph import (
     match_names,
     q_chunk_vector_search,
     q_expand,
     q_link_entities,
     q_shortest_path,
 )
-from lexgraph.schema import TRAVERSAL_RELATIONS
+from opsgraph.retrieval import intent_types
+from opsgraph.schema import TRAVERSAL_RELATIONS
 
 
 def test_vector_query_oversamples_and_rescores():
@@ -16,11 +17,11 @@ def test_vector_query_oversamples_and_rescores():
 
 
 def test_expand_uses_only_traversal_relations_and_hop_limit():
-    q, p = q_expand(3, ["MSA-001"])
+    q, p = q_expand(3, ["SVC-CHECKOUT"])
     for rel in TRAVERSAL_RELATIONS:
         assert rel in q
-    assert "DATED" not in q and "GOVERNED_BY" not in q  # shared leaf facts are not traversed
-    assert "*1..3" in q and p == {"seed_ids": ["MSA-001"]}
+    assert "DATED" not in q and "HAS_ACTION" not in q  # leaf facts are not traversed
+    assert "*1..3" in q and p == {"seed_ids": ["SVC-CHECKOUT"]}
 
 
 def test_hop_count_is_an_int_not_injectable():
@@ -39,5 +40,12 @@ def test_link_entities_is_parameterised():
 
 
 def test_match_names():
-    assert match_names("Tassili Emballage SARL") == ["Tassili Emballage SARL", "Tassili Emballage"]
-    assert "Master Supply Agreement" in match_names("MSA-001", "Master Supply Agreement")
+    assert match_names("SVC-CHECKOUT", "checkout-api") == ["SVC-CHECKOUT", "checkout-api", "checkout api"]
+    assert match_names("Nabil Ferhat") == ["Nabil Ferhat"]
+
+
+def test_intent_types():
+    assert intent_types("Who do I page if checkout-api fails?") == {"Rota"}
+    assert intent_types("What was decided after the outage?") == {"Decision", "Postmortem"}
+    assert intent_types("What breaks if main-db goes down?") == {"Service"}
+    assert intent_types("How much memory does Redis have?") == set()

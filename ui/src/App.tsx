@@ -55,10 +55,10 @@ export default function App() {
         <div className="brand">
           <Logo />
           <div>
-            <h1>LexGraph</h1>
+            <h1>OpsGraph</h1>
             <p>
-              Ask about the contracts: LexGraph finds the documents, follows the links between them in a knowledge
-              graph, and answers with sources. Sample data, fictional.
+              Ask what an on-call engineer would ask: OpsGraph finds the service pages, runbooks and postmortems,
+              follows the links between them in a knowledge graph, and answers with sources. Sample data, fictional.
             </p>
           </div>
         </div>

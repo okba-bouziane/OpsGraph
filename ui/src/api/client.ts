@@ -1,4 +1,4 @@
-// Calls to the LexGraph FastAPI service.
+// Calls to the OpsGraph FastAPI service.
 
 import { API_BASE } from "../config";
 import type { AskResponse, EntityDetail, Health, Retriever } from "../types";

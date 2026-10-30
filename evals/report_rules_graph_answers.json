@@ -1,31 +1,31 @@
 {
  "vector": {
   "all": {
-   "n": 31,
-   "recall": 0.839,
-   "full": 0.677,
-   "mrr": 0.901,
-   "fact": 0.871,
-   "answer_fact": 0.935,
-   "grounded": 0.774
+   "n": 39,
+   "recall": 0.799,
+   "full": 0.667,
+   "mrr": 0.818,
+   "fact": 0.667,
+   "answer_fact": 0.513,
+   "grounded": 0.949
   },
   "single": {
-   "n": 12,
+   "n": 16,
    "recall": 1.0,
    "full": 1.0,
-   "mrr": 1.0,
+   "mrr": 0.938,
    "fact": 1.0,
-   "answer_fact": 1.0,
+   "answer_fact": 0.812,
    "grounded": 1.0
   },
   "multi": {
-   "n": 19,
-   "recall": 0.737,
-   "full": 0.474,
-   "mrr": 0.838,
-   "fact": 0.789,
-   "answer_fact": 0.895,
-   "grounded": 0.632
+   "n": 23,
+   "recall": 0.659,
+   "full": 0.435,
+   "mrr": 0.736,
+   "fact": 0.435,
+   "answer_fact": 0.304,
+   "grounded": 0.913
   },
   "rows": [
    {
@@ -37,7 +37,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Brightwater Dairy must pay Northwind Logistics invoices within **21 days** of receiving each invoice. [LOG-002#3.0]"
+    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**. [SVC-REDIS#2.0]"
    },
    {
     "id": "S02",
@@ -48,7 +48,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Liability Cap in the Harbor Group Holdings Guarantee\n\nThe liability of Harbor Group Holdings plc as Guarantor is capped at **250,000 GBP** [GUA-004#3.0].\n\nThis cap is set out in Clause 2 of the Parent Company Guarantee (Document GUA-004), which guarantees Northwind Logistics Ltd's payment obligations under the Transport Services Agreement (LOG-002) to Brightwater Dairy Ltd [GUA-004#0.0]."
+    "answer": "The main\u2011db primary accepts at most **400 connections**. [SVC-MAINDB#2.0]"
    },
    {
     "id": "S03",
@@ -59,7 +59,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nTessellate Software Ltd must notify Brightwater Foods plc of any personal data breach **within 48 hours** of becoming aware of it. [DPA-010#2.0]\n\nThis obligation is set out in Clause 3 (Breach notification) of the Data Processing Addendum to the Software Service Level Agreement between the two parties."
+    "answer": "Calls to Numidia Pay time out after 8\u202fseconds and are retried once. [SVC-PAYMENTS#2.0]"
    },
    {
     "id": "S04",
@@ -70,7 +70,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The mutual non-disclosure agreement between Brightwater Foods plc and Tessellate Software Ltd is governed by the law of **Scotland** [NDA-007#0.0]."
+    "answer": "CheckoutHighErrorRate fires when more than 2\u202f% of checkout requests return a 5xx error for **5 minutes** [SVC-CHECKOUT#3.0]."
    },
    {
     "id": "S05",
@@ -81,7 +81,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "According to the Mutual Non-Disclosure Agreement between Brightwater Foods plc and Tessellate Software Ltd, Tessellate Software Ltd must keep all Brightwater Foods plc recipe and volume data confidential for **3 years** [NDA-007#2.0]."
+    "answer": "A full rebuild of the search index takes roughly **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]"
    },
    {
     "id": "S06",
@@ -92,7 +92,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Meridian Cold Storage must hold chilled goods at **between 1 and 5 degrees Celsius** at all times. [STO-003#2.0]"
+    "answer": "The notifications worker sends about **90,000 SMS per day** [SVC-NOTIFY#1.0]."
    },
    {
     "id": "S07",
@@ -103,7 +103,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Calder Packaging Ltd agreed to pay **42,000 GBP** to Brightwater Foods plc by 30 September 2024 in settlement of claims for late carton deliveries under the Master Supply Agreement [SET-011#2.0]."
+    "answer": "Main\u2011db keeps full nightly backups and WAL archives for 14\u202fdays. [SVC-MAINDB#3.0]"
    },
    {
     "id": "S08",
@@ -114,7 +114,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Daniel Okafor** signed the parent company guarantee for Ashford Industrial Group plc.\n\nAccording to the document metadata for the Parent Company Guarantee (GUA-005), the signatory listed for Ashford Industrial Group plc (in its capacity as Guarantor) is **Daniel Okafor** [GUA-005#0.0].\n\nThis guarantee was provided in favor of Brightwater Foods plc (Beneficiary) and relates to the Master Supply Agreement (MSA-001), under which Ashford Industrial Group plc guaranteed the obligations of its 100%-owned subsidiary, Calder Packaging Ltd [GUA-005#2.0] [CORP-002#1.0]."
+    "answer": "The shared infrastructure maintenance window is every Tuesday from 02:00 to 04:00 (Algiers time)\u3010TEAM-PLATFORM#2.0\u3011."
    },
    {
     "id": "S09",
@@ -125,29 +125,29 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Calder Packaging Ltd owns **60%** of Calder Plastics Ltd. [CORP-002#1.0]"
+    "answer": "The catalog holds about **180,000 products from 2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011."
    },
    {
     "id": "S10",
     "kind": "single",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "**90 days.**\n\nUnder Clause 2 of Amendment 2 to the Master Supply Agreement, Calder Packaging Ltd must notify Brightwater Foods plc **at least 90 days** before any carton price change takes effect. [MSA-001-A2#3.0]"
+    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is `card-payments-enabled=false`\u3010RB-PAY-DECLINES#2.0\u3011."
    },
    {
     "id": "S11",
     "kind": "single",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nCalder Packaging Ltd must pay Tessellate Software Ltd **within 14 days of receiving each annual invoice** [LIC-009#3.0].\n\nThis obligation is set out in Clause 4 (Fees) of the Software Licence between Tessellate Software Ltd (Licensor) and Calder Packaging Ltd (Licensee), which is effective from 1 May 2024 and expires on 30 April 2027 [LIC-009#0.0]."
+    "answer": "Sentinel should promote the Redis replica within **30\u202fseconds**.  \n[ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]"
    },
    {
     "id": "S12",
@@ -156,20 +156,64 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "Each service gets a fixed pool size through PgBouncer:\n\n- **orders\u2011service** \u2013 40 connections  \n- **catalog\u2011service** \u2013 30 connections  \n- **payments\u2011gateway** \u2013 20 connections  \n- **imports** \u2013 10 connections  \n\nThese values are defined in the ADR\u2011004 decision document [ADR-004#2.0]."
+   },
+   {
+    "id": "S13",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "According to the termination notice, the Cold Storage Agreement ends on **31 December 2025** [NOT-008#1.0]. The notice, issued by Northwind Logistics Ltd on 15 September 2025, states that the agreement terminates because Meridian Cold Storage Ltd reported temperature excursions on three occasions [NOT-008#1.0]. The effective date of termination is confirmed as 2025-12-31 in the document metadata [NOT-008#0.0]."
+    "answer": "Customers received order\u2011confirmation SMS up to **9 hours late** during the incident. [PM-2025-06#1.0] [PM-2025-06#0.0]"
+   },
+   {
+    "id": "S14",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "About 3,100 orders were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]"
+   },
+   {
+    "id": "S15",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The Numidia Pay integration contract guarantees **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]"
+   },
+   {
+    "id": "S16",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The EventsQueueBacklog alert fires when any queue on the events bus holds more than **50,000** waiting messages. [SVC-EVENTS#2.0]"
    },
    {
     "id": "M01",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nUnder the Master Supply Agreement as amended, Brightwater Foods plc has **45 days** to pay Calder Packaging Ltd invoices.\n\n**Reasoning:**\n\n1. The original Master Supply Agreement set the payment term at 30 days: \"Brightwater Foods plc shall pay Calder Packaging Ltd within 30 days of receiving each invoice.\" [MSA-001#3.0]\n\n2. Amendment 1 to the Master Supply Agreement replaced Clause 4, changing the payment term to 45 days: \"Brightwater Foods plc shall pay Calder Packaging Ltd within 45 days of receiving each invoice.\" [MSA-001-A1#2.0]\n\n3. Amendment 2 [MSA-001-A2#3.0] addresses price indexation only and does not alter the payment terms.\n\nThe graph path confirms that Amendment 1 and Amendment 2 are both amendments to the same Master Supply Agreement (MSA-001-A1 \u2190[REFERENCES]\u2192 MSA-001-A2), and both Brightwater Foods plc and Calder Packaging Ltd are parties to the MSA.\n\n**Therefore, the current payment term is 45 days.**"
+    "grounded": 1.0,
+    "answer": "The primary on\u2011call engineer for the checkout\u2011api service is **Nabil\u202fFerhat**\u3010ONC-PAY#0.0\u3011."
    },
    {
     "id": "M02",
@@ -177,76 +221,76 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The term of the Master Supply Agreement has been extended until **31 January 2028**, as stated in Clause 1 of Amendment 2 to the Master Supply Agreement [MSA-001-A2#2.0].\n\nThis amendment, effective from 1 June 2025, was executed between Brightwater Foods plc (Buyer) and Calder Packaging Ltd (Supplier) [MSA-001-A2#0.0]."
+    "answer": "The alert **PaymentDeclineRateHigh** is covered by the runbook **RB\u2011PAY\u2011DECLINES**.  \nThe runbook states that if card payments have been failing for more than 15\u202fminutes, you should page the **Checkout & Payments escalation contact**.  \n\nSo, use runbook **RB\u2011PAY\u2011DECLINES** and contact the Checkout & Payments escalation team. [RB-PAY-DECLINES#3.0]"
    },
    {
     "id": "M03",
     "kind": "multi",
     "recall": 0.5,
     "full": 0.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "**Ashford Industrial Group plc** is the parent company that guarantees the supplier's obligations under the Master Supply Agreement.\n\nSpecifically, under the Parent Company Guarantee (GUA-005), Ashford Industrial Group plc agrees to perform any obligation of **Calder Packaging Ltd** under the Master Supply Agreement (MSA-001) that Calder Packaging Ltd fails to perform [GUA-005#2.0]. The guarantee identifies Ashford Industrial Group plc as the Guarantor and Brightwater Foods plc as the Beneficiary [GUA-005#0.0]."
+    "answer": "Page the Platform on\u2011call team first, as they own the main\u2011db service and are listed in the Platform on\u2011call rota. If no response within 5\u202fminutes, page the secondary on\u2011call (Platform) as a shared infrastructure outage affects all teams. [SVC-MAINDB] [ONC-PLATFORM]"
    },
    {
     "id": "M04",
     "kind": "multi",
-    "recall": 0.5,
+    "recall": 0.3333333333333333,
     "full": 0.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nThe liability cap of the guarantee covering the supplier in the Master Supply Agreement is **500,000 GBP**.\n\n**Reasoning chain:**\n\n1. The Master Supply Agreement (MSA-001) is between Brightwater Foods and Calder Packaging, with Calder Packaging acting as the supplier (evidenced by the settlement of \"late carton deliveries\" in [SET-011#2.0]).\n\n2. The graph path shows: **GUA-005 \u2192[GUARANTEES]\u2192 MSA-001**, meaning GUA-005 is the guarantee that covers the MSA-001.\n\n3. GUA-005 is a \"Parent Company Guarantee: Packaging Supply\" where **Ashford Industrial Group plc** (the parent of Calder Packaging) is the Guarantor and **Brightwater Foods plc** is the Beneficiary [GUA-005#0.0].\n\n4. The cap clause states: \"The liability of the Guarantor is capped at **500,000 GBP**\" [GUA-005#3.0]."
+    "mrr": 0.3333333333333333,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** \u2013 uses Redis for session caching [SVC-REDIS<-[DEPENDS_ON]-SVC-AUTH].\n- **checkout-api** \u2013 stores carts in Redis [SVC-REDIS<-[DEPENDS_ON]-SVC-CHECKOUT].\n- **storefront-web** \u2013 caches product pages in Redis for 60\u202fs [SVC-REDIS<-[DEPENDS_ON]-SVC-STOREFRONT]."
    },
    {
     "id": "M05",
     "kind": "multi",
-    "recall": 0.5,
+    "recall": 0.0,
     "full": 0.0,
-    "mrr": 0.3333333333333333,
+    "mrr": 0.0,
     "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nThe supplier under the Master Supply Agreement is **Calder Packaging Ltd** [MSA-001#1.0]. According to the graph paths, Calder Packaging Ltd is a subsidiary of **Ashford Industrial Group plc** [MSA-001 \u2190[PARTY_TO]\u2192 Calder Packaging Ltd \u2190[SUBSIDIARY_OF]\u2192 Ashford Industrial Group plc].\n\nTherefore, **Ashford Industrial Group plc** is the group that ultimately owns the supplier under the Master Supply Agreement."
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "If **main\u2011db** goes down, the following services lose critical functionality:\n\n- **orders-service** \u2013 orders are stored in the orders schema of main\u2011db; without the DB the service cannot persist or retrieve orders, causing timeouts and connection\u2011exhaustion alerts. [SVC-ORDERS#2.0]  \n- **auth-service** \u2013 sessions are cached in Redis but also stored in main\u2011db; if the DB is down, no one can sign in. [SVC-AUTH#2.0]  \n- **catalog-service** \u2013 product data lives in the catalog schema of main\u2011db; without it the service cannot serve product pages. [SVC-CATALOG#2.0]  \n- **storefront-web** \u2013 product pages depend on catalog data; when catalog is down the storefront shows a maintenance page. [SVC-STOREFRONT#2.0]  \n\nOther services that rely on main\u2011db indirectly (e.g., search\u2011api via catalog events) may become stale but remain operational."
    },
    {
     "id": "M06",
     "kind": "multi",
     "recall": 0.5,
     "full": 0.0,
-    "mrr": 0.5,
+    "mrr": 1.0,
     "fact": 1.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "**Harbor Group Holdings plc** owns the carrier under the Transport Services Agreement.\n\nThe Transport Services Agreement is between Brightwater Dairy Ltd and Northwind Logistics Ltd [LOG-002#1.0]. The Parent Company Guarantee for that agreement identifies **Harbor Group Holdings plc** as the guarantor, stating that it \"shall pay Brightwater Dairy Ltd any sum that Northwind Logistics Ltd fails to pay when due under the Transport Services Agreement\" [GUA-004#2.0]. The fact that this is a *Parent Company* Guarantee confirms that Harbor Group Holdings plc is the parent (owning) company of Northwind Logistics Ltd, the carrier."
+    "answer": "The outage was caused by the checkout service, which is owned by the **TEAM\u2011PAY** team. [SVC\u2011CHECKOUT#0.0] [SVC\u2011CHECKOUT -[OWNED_BY]-> TEAM\u2011PAY]"
    },
    {
     "id": "M07",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
+    "recall": 1.0,
+    "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Harbor Group Holdings plc** guarantees the carrier's (Northwind Logistics Ltd) payments under the Transport Services Agreement. [GUA-004#2.0]\n\nSpecifically, Harbor Group Holdings plc shall pay Brightwater Dairy Ltd any sum that Northwind Logistics Ltd fails to pay when due under the Transport Services Agreement. [GUA-004#2.0]\n\nThe guarantor's liability is **capped at 250,000 GBP**. [GUA-004#3.0]"
+    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to:\n\n* Add an alert that triggers 30\u202fdays before any external certificate expires, to be in place by\u202f2025\u201108\u201131 [PM-2025-08#3.0].\n* Add a feature flag that can switch the checkout flow to cash\u2011on\u2011delivery only, to be available by\u202f2025\u201108\u201120 [PM-2025-08#3.0].\n* Adopt the decision to monitor and automate external certificates, as recorded in ADR\u2011003 [ADR-003#1.0]."
    },
    {
     "id": "M08",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
+    "recall": 1.0,
+    "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "Based on the provided context, I can identify the relevant parties and documents, but **the specific temperature requirement is not contained in the context provided**.\n\nHere is what the context establishes:\n\n1. **The subcontractor** approved in Amendment 1 to the Transport Services Agreement is **Meridian Cold Storage Ltd**, as stated in Clause 1 of LOG-002-A1: \"Northwind Logistics Ltd may store chilled goods with Meridian Cold Storage Ltd as an approved subcontractor.\" [LOG-002-A1#2.0]\n\n2. **The relevant agreement** governing the subcontractor's obligations is the **Cold Storage Agreement (STO-003)** between Northwind Logistics and Meridian Cold Storage, which is referenced by LOG-002-A1 per the graph paths.\n\nHowever, the context only provides the header for STO-003 (\"Cold Storage Agreement: Northwind Logistics and Meridian Cold Storage\") [STO-003#1.0] without any of its actual clause content. The specific temperature that Meridian Cold Storage Ltd must maintain is therefore **not available in the provided context**."
+    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was replaced by **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER#0.0]. The new runbook does not contain any instruction about manually restarting the primary; it focuses on failover procedures instead. If you need guidance on restarting the primary, that information is not present in the provided context."
    },
    {
     "id": "M09",
@@ -257,51 +301,51 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nAfter the renewal of the Transport Services Agreement, Northwind Logistics Ltd must deliver chilled goods **within 18 hours of collection** [REN-012#2.0].\n\nThis represents a reduction from the original delivery window of 24 hours set out in the base Transport Services Agreement [LOG-002#2.0]. The renewal letter explicitly states that \"the delivery window is reduced\" to 18 hours [REN-012#2.0]."
+    "answer": "ADR\u2011002 superseded ADR\u2011001 [ADR-001#0.0].  \nUnder ADR\u2011002 Redis is run as a primary with one replica in a second rack, and a Redis Sentinel cluster with three voters is used to promote the replica automatically. Failover is expected to complete in under 30\u202fseconds [ADR-002#2.0]."
    },
    {
     "id": "M10",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
+    "recall": 1.0,
+    "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The Transport Services Agreement has been renewed until **31 May 2027** [REN-012#2.0]. This is confirmed by the document metadata, which lists the expiry date as 2027-05-31 [REN-012#0.0]."
+    "answer": "The team that owns **search\u2011api** is **Search & Catalog** (TEAM\u2011DISCOVERY), and its lead is **Imene Djebbar** [TEAM\u2011DISCOVERY#0.0]."
    },
    {
     "id": "M11",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nThe amendment that authorised the subcontractor is **LOG-002-A1 (Amendment 1 to the Transport Services Agreement)**.\n\n**Reasoning chain:**\n\n1. The notice that ended the Cold Storage Agreement is **NOT-008**, which terminates STO-003. [NOT-008#0.0]\n\n2. The subcontractor named in that notice is **Meridian Cold Storage Ltd**, identified as the recipient and the party whose temperature excursions triggered the termination. [NOT-008#1.0]\n\n3. The Cold Storage Agreement (STO-003) references **LOG-002-A1** as its authorising amendment. [STO-003#0.0]\n\n4. Clause 1 of LOG-002-A1 explicitly states: *\"Northwind Logistics Ltd may store chilled goods with Meridian Cold Storage Ltd as an approved subcontractor.\"* [LOG-002-A1#2.0]\n\n**Graph path connecting the documents:**\nSTO-003 \u2192[REFERENCES]\u2192 LOG-002-A1, which is the amendment that authorised Meridian Cold Storage Ltd as the subcontractor."
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "Yes \u2013 the events\u2011bus backlog caused the incident documented in **PM\u20112025\u201106** (SMS delayed by up to 9\u202fhours) [PM-2025-06]. The runbook that was produced as a follow\u2011up is **RB\u2011EVENTS\u2011BACKLOG** (Runbook: Events bus backlog) [RB-EVENTS-BACKLOG]."
    },
    {
     "id": "M12",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
+    "fact": 0.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nThe parent company that owns the warehouse operator is **Harbor Group Holdings plc**.\n\nHere is the chain of reasoning:\n\n1. **Termination notice recipient:** Northwind Logistics Ltd issued a Notice of Termination to **Meridian Cold Storage Ltd** [NOT-008#0.0].\n\n2. **Warehouse operator role:** Meridian Cold Storage Ltd is identified as the \"Warehouse Operator\" under the Cold Storage Agreement (STO-003) [STO-003#0.0].\n\n3. **Ownership:** Harbor Group Holdings plc owns 80% of Meridian Cold Storage Ltd [CORP-001#1.0].\n\nTherefore, **Harbor Group Holdings plc** is the parent company that owns the warehouse operator (Meridian Cold Storage Ltd) which received the termination notice from Northwind Logistics."
+    "answer": "The notifications\u2011worker service is owned by the **Orders & Delivery** team (TEAM\u2011ORDERS) [SVC\u2011NOTIFY].  \nThe on\u2011call rota for that team is **ONC\u2011ORDERS** [ONC\u2011ORDERS].  \nSo the primary on\u2011call engineer for the notifications worker is **Sara\u202fMeziane** (secondary Hamza\u202fToumi)."
    },
    {
     "id": "M13",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "mrr": 0.5,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nAfter Amendment 1, Tessellate Software Ltd must keep the planning platform available at least **99.9% of each month** [SLA-006-A1#2.0].\n\nThis is an increase from the original requirement of 99.5% of each month [SLA-006#2.0], as Amendment 1 explicitly replaces Clause 2 of the Software Service Level Agreement with the higher target [SLA-006-A1#2.0]."
+    "answer": "The Platform team received the following action items from post\u2011mortems:\n\n1. **Add a dead\u2011letter queue to every queue on the events bus** \u2013 due by 2025\u201107\u201115. [PM-2025-06#3.0]  \n2. **Run Redis with a replica and Sentinel** \u2013 due by 2025\u201104\u201130. [PM-2025-03#3.0]"
    },
    {
     "id": "M14",
@@ -309,24 +353,35 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Orbis Capital Partners LP** owns the software provider that must notify Brightwater Foods of data breaches.\n\nHere is the chain of reasoning:\n\n1. **The software provider with the breach notification obligation is Tessellate Software Ltd.**\n   The Data Processing Addendum states: \"Tessellate Software Ltd shall notify Brightwater Foods plc of any personal data breach within 48 hours of becoming aware of it.\" [DPA-010#2.0]\n\n2. **The investor that owns Tessellate Software Ltd is Orbis Capital Partners LP.**\n   The company profile for Tessellate Software states: \"Orbis Capital Partners LP owns 70% of Tessellate Software Ltd.\" [CORP-004#1.0]\n\nThis is further confirmed by the graph path:\nDPA-010 \u2190[PARTY_TO]\u2014 Tessellate Software Ltd \u2014[SUBSIDIARY_OF]\u2192 Orbis Capital Partners LP \u2014[PARTY_TO]\u2192 CORP-004"
+    "answer": "The Numidia Pay client certificate expired, causing the **numidia\u2011pay** service to refuse all card payments for about 2\u202fhours and 10\u202fminutes. Cash\u2011on\u2011delivery orders continued to work during that period. [PM-2025-08#1.0] [SVC-NUMIDIAPAY#3.0]"
    },
    {
     "id": "M15",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "recall": 0.0,
+    "full": 0.0,
+    "mrr": 0.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nTessellate must keep the data confidential for **3 years**.\n\n**Reasoning:**\n\n1. The Software Service Level Agreement (SLA-006) references NDA-007 as a prior agreement [SLA-006#0.0].\n2. NDA-007 is the \"Mutual Non-Disclosure Agreement: Brightwater Foods and Tessellate Software\" [NDA-007#2.0].\n3. Clause 2 of NDA-007 states: \"Tessellate Software Ltd shall keep all Brightwater Foods plc recipe and volume data confidential for **3 years**\" [NDA-007#2.0]."
+    "answer": "Checkout\u2011API depends on the external card\u2011payment provider **Numidia\u202fPay** for processing card payments.  \nIts client certificate is monitored by the **NumidiaPayCertificateExpiry** alert, which fires **30\u202fdays before the certificate expires**. [SVC-NUMIDIAPAY#3.0]"
    },
    {
     "id": "M16",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The orders-service still uses a pool of 40 database connections. [SVC-ORDERS#2.0]"
+   },
+   {
+    "id": "M17",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
@@ -334,32 +389,10 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Since 1 February 2025, Brightwater Foods plc must pay all invoices of Calder Packaging Ltd to **Orchard Finance Ltd** [ASG-013#1.0].\n\nThis is because Calder Packaging Ltd assigned its right to payment of invoices under the Master Supply Agreement to Orchard Finance Ltd, and the notice explicitly states that from 1 February 2025, Brightwater Foods plc shall pay all invoices of Calder Packaging Ltd to Orchard Finance Ltd [ASG-013#1.0]."
-   },
-   {
-    "id": "M17",
-    "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
-    "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Based on the graph paths, I can trace the relationship:\n\n- **SET-011** (Settlement Agreement: Late Deliveries) references **MSA-001-A1** (Amendment 1 to the Master Supply Agreement) [SET-011 -[REFERENCES]-> MSA-001-A1].\n- MSA-001-A1 is Amendment 1 to the **Master Supply Agreement (MSA-001)**, which is the contract whose payment terms were changed by Amendment 1.\n\nHowever, the context provided for **SET-011** only contains the document header and a \"## Clauses\" section marker, with no actual clause text or payment amount included [SET-011#1.0].\n\n**The context does not contain the settlement amount.** The specific payment figure from the Settlement Agreement (SET-011) is not present in the provided chunks."
+    "answer": "The secondary on\u2011call for the team that owns the **payments\u2011gateway** service is **Lina\u202fCherif**\u3010ONC-PAY#0.0\u3011."
    },
    {
     "id": "M18",
-    "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
-    "mrr": 0.25,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\n**Ashford Industrial Group plc** is the ultimate parent of the company that assigned its receivables under the Master Supply Agreement.\n\nHere is the reasoning chain:\n\n1. **Identifying the assignor:** The Notice of Assignment of Receivables states that \"Calder Packaging Ltd assigns its right to payment of invoices under the Master Supply Agreement to Orchard Finance Ltd.\" [ASG-013#1.0]\n\n2. **Identifying the parent company:** The document GUA-005 is titled \"Parent Company Guarantee: Packaging Supply\" and identifies **Ashford Industrial Group plc** as the Guarantor, guaranteeing MSA-001 (the Master Supply Agreement between Brightwater Foods and Calder Packaging). [GUA-005#0.0]\n\n3. **Confirming the relationship via graph paths:** The graph shows:\n   - `GUA-005 -[GUARANTEES]-> MSA-001`\n   - `GUA-005 <-[PARTY_TO]- Ashford Industrial Group plc`\n\n   This confirms that Ashford Industrial Group plc, as the guarantor in a \"Parent Company Guarantee\" for the packaging supply agreement, is the parent of Calder Packaging Ltd.\n\n4. **Ultimate parent:** No further `SUBSIDIARY_OF` relationship is shown above Ashford Industrial Group plc in the provided context, making it the **ultimate parent**."
-   },
-   {
-    "id": "M19",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
@@ -367,37 +400,92 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The parent company guarantee covering the Transport Services Agreement (LOG-002) between Brightwater Dairy Ltd and Northwind Logistics Ltd is document GUA-004. It was signed by **Rosa Whitlock** on behalf of Harbor Group Holdings plc (the Guarantor) [GUA-004#0.0]."
+    "answer": "The only architecture decision that applies to **orders\u2011service** in the provided context is the PgBouncer connection\u2011pooling policy:\n\n- **PgBouncer in front of main\u2011db** \u2013 orders\u2011service is allocated a fixed pool of **40** connections in transaction mode.  \n  [ADR-004#2.0]"
+   },
+   {
+    "id": "M19",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 0.25,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The carts disappearing at checkout are caused by a Redis failure.  \nThe appropriate runbook is **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER].  \nThe service affected is **SVC\u2011CHECKOUT**, which is owned by the **Checkout & Payments** team (TEAM\u2011PAY) [TEAM-PAY]."
+   },
+   {
+    "id": "M20",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "The June\u202f2025 events\u2011bus incident impacted the services that depend on the events bus:\u202forders\u2011service, delivery\u2011tracker, notifications\u2011worker, and catalog\u2011service\u202f[SVC-ORDERS#1.0][SVC-DELIVERY#2.0][SVC-NOTIFY#2.0][SVC-CATALOG#2.0].  \n\nThe post\u2011mortem notes that SMS were delayed by up to nine hours, but the exact number of SMS that piled up is not specified in the provided context."
+   },
+   {
+    "id": "M21",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The escalation contact for the database (SVC\u2011MAINDB) that catalog\u2011service depends on is **Sofiane\u202fLarbi**\u3010ONC-PLATFORM#0.0\u3011."
+   },
+   {
+    "id": "M22",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The outage led to the decision in **ADR\u2011002** to run Redis with a replica and Sentinel, replacing the single\u2011host setup.  \nFailover is expected to complete within **15\u202fminutes** \u2013 if Redis is still unhealthy after that, the runbook instructs to page the Platform escalation contact. [ADR-002#1.0] [RB-REDIS-FAILOVER#3.0]"
+   },
+   {
+    "id": "M23",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 0.5,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The storefront depends on the checkout service, which is owned by the Checkout & Payments team.  \n- Storefront\u2011web lists **SVC\u2011CHECKOUT** as a critical dependency for buying.  \n- The Checkout & Payments team (TEAM\u2011PAY) owns the checkout API.  \n\nThus, the storefront dependency owned by Checkout & Payments is **SVC\u2011CHECKOUT**. [SVC-STOREFRONT#0.0] [TEAM-PAY#1.0]"
    }
   ]
  },
  "graph": {
   "all": {
-   "n": 31,
-   "recall": 0.952,
-   "full": 0.903,
-   "mrr": 0.901,
-   "fact": 0.645,
-   "answer_fact": 0.839,
-   "grounded": 0.613
+   "n": 39,
+   "recall": 0.923,
+   "full": 0.846,
+   "mrr": 0.889,
+   "fact": 0.667,
+   "answer_fact": 0.462,
+   "grounded": 0.897
   },
   "single": {
-   "n": 12,
+   "n": 16,
    "recall": 1.0,
    "full": 1.0,
-   "mrr": 1.0,
-   "fact": 0.75,
-   "answer_fact": 0.75,
-   "grounded": 0.583
+   "mrr": 0.938,
+   "fact": 0.938,
+   "answer_fact": 0.812,
+   "grounded": 0.938
   },
   "multi": {
-   "n": 19,
-   "recall": 0.921,
-   "full": 0.842,
-   "mrr": 0.838,
-   "fact": 0.579,
-   "answer_fact": 0.895,
-   "grounded": 0.632
+   "n": 23,
+   "recall": 0.87,
+   "full": 0.739,
+   "mrr": 0.855,
+   "fact": 0.478,
+   "answer_fact": 0.217,
+   "grounded": 0.87
   },
   "rows": [
    {
@@ -408,8 +496,8 @@
     "mrr": 1.0,
     "fact": 1.0,
     "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nBrightwater Dairy Ltd must pay Northwind Logistics Ltd invoices within **21 days** of receiving each invoice.\n\nThis is specified in Clause 5 (Charges) of the Transport Services Agreement between the two parties [LOG-002#3.0].\n\n**Note:** There are two amendments to this agreement \u2014 Amendment 1 (LOG-002-A1, effective 2023-12-01) [LOG-002-A1#0.0] and a Renewal Letter (REN-012, effective 2025-06-01) [REN-012#0.0] \u2014 but the specific clause content of those amendments is not provided in the available context. Based solely on the information given, the payment term is 21 days."
+    "grounded": 1.0,
+    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**\u3010SVC-REDIS#2.0\u3011."
    },
    {
     "id": "S02",
@@ -417,10 +505,10 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Based on the provided context, **no specific liability cap is stated for the Harbor Group Holdings guarantee (GUA-004)**.\n\nThe context only includes Clause 1 of GUA-004, which establishes the guarantee obligation:\n\n> \"Harbor Group Holdings plc shall pay Brightwater Dairy Ltd any sum that Northwind Logistics Ltd fails to pay when due under the Transport Services Agreement.\" [GUA-004#2.0]\n\nNo cap clause (e.g., a \"Clause 2 \u2013 Cap\") is provided in the context for GUA-004.\n\n**Note:** A cap of 500,000 GBP does appear in the context, but it belongs to a *different* guarantee \u2014 GUA-005 (Parent Company Guarantee: Packaging Supply) [GUA-005#3.0] \u2014 and is not applicable to the Harbor Group Holdings guarantee in question.\n\nThe context does not contain the answer to this question."
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The main\u2011db primary accepts at most **400 connections**. [SVC-MAINDB#2.0]"
    },
    {
     "id": "S03",
@@ -431,7 +519,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Tessellate Software Ltd must notify Brightwater Foods plc of any personal data breach **within 48 hours** of becoming aware of it. [DPA-010#2.0]\n\nThis obligation is set out in Clause 3 (Breach notification) of the Data Processing Addendum (DPA-010), which amends the Software Service Level Agreement (SLA-006) between the two parties. [DPA-010#2.0] [SLA-006#0.0]"
+    "answer": "Calls to Numidia Pay time out after 8\u202fseconds and are retried once. [SVC-PAYMENTS#2.0]"
    },
    {
     "id": "S04",
@@ -439,10 +527,10 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Based on the provided context, the governing law for the Mutual Non-Disclosure Agreement (NDA-007) between Brightwater Foods and Tessellate Software is **not stated**.\n\nThe context includes:\n- The header of NDA-007 [NDA-007#1.0]\n- Clause 2 (Confidentiality) of NDA-007 [NDA-007#2.0]\n\nHowever, no governing law clause for NDA-007 is present in the provided chunks.\n\nThe only governing law mentioned in the context is **\"England and Wales\"**, but that appears in [SLA-006-A1#0.0], which is an amendment to the *Software Service Level Agreement* (SLA-006), not the NDA. While both documents involve the same parties (Brightwater Foods plc and Tessellate Software Ltd), the SLA's governing law cannot be assumed to apply to the NDA without explicit reference.\n\n**Conclusion:** The context does not contain the answer to which law governs the NDA between Brightwater Foods and Tessellate."
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "CheckoutHighErrorRate fires when more than 2% of checkout requests return a 5xx error for **5 minutes** [SVC-CHECKOUT#3.0]."
    },
    {
     "id": "S05",
@@ -452,8 +540,8 @@
     "mrr": 1.0,
     "fact": 1.0,
     "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nRecipe and volume data must be kept confidential for **3 years**.\n\nThis obligation is set out in Clause 2 of the Mutual Non-Disclosure Agreement (NDA-007) between Brightwater Foods plc and Tessellate Software Ltd, which states:\n\n> \"Tessellate Software Ltd shall keep all Brightwater Foods plc recipe and volume data confidential for 3 years.\" [NDA-007#2.0]\n\n**Document connection:** The NDA-007 is referenced by the Software Service Level Agreement (SLA-006) between the same two parties, establishing the broader contractual relationship under which this confidentiality obligation operates [SLA-006#0.0]."
+    "grounded": 1.0,
+    "answer": "A full rebuild of the search index takes about **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]"
    },
    {
     "id": "S06",
@@ -464,7 +552,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Meridian Cold Storage Ltd must hold chilled goods at **between 1 and 5 degrees Celsius** at all times. [STO-003#2.0]\n\nThis obligation is set out in Clause 3 (Storage standard) of the Cold Storage Agreement between Northwind Logistics and Meridian Cold Storage. The agreement was later terminated by Northwind Logistics on 31 December 2025, partly because Meridian Cold Storage reported temperature excursions on three occasions. [NOT-008#1.0]"
+    "answer": "The notifications worker sends about **90,000 SMS per day** [SVC-NOTIFY#1.0]."
    },
    {
     "id": "S07",
@@ -475,7 +563,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Calder Packaging Ltd agreed to pay **42,000 GBP** to Brightwater Foods plc by 30 September 2024 in settlement of claims for late carton deliveries under the Master Supply Agreement [SET-011#2.0]."
+    "answer": "Main\u2011db write\u2011ahead logs are archived every 5\u202fminutes and kept for 14\u202fdays. [SVC-MAINDB#3.0]"
    },
    {
     "id": "S08",
@@ -483,10 +571,10 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
+    "fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "## Answer\n\nBased on the provided context, **Ashford Industrial Group plc** is the party that signed (gave) the parent company guarantee.\n\nSpecifically, [GUA-005#2.0] states that \"Ashford Industrial Group plc shall perform any obligation of Calder Packaging Ltd under the Master Supply Agreement that Calder Packaging Ltd fails to perform.\" This confirms Ashford Industrial Group plc as the guarantor.\n\nThe graph paths further confirm this: `Ashford Industrial Group plc -[PARTY_TO]-> GUA-005` [GUA-005].\n\nThe guarantee was given in favor of **Brightwater Foods plc**, which is the other party to the guarantee (`GUA-005 <-[PARTY_TO]- Brightwater Foods plc`).\n\nThe context does not identify a specific individual (e.g., a director or officer) who physically signed the document on behalf of Ashford Industrial Group plc."
+    "answer": "I\u2019m sorry, but the provided context does not contain information about the shared infrastructure maintenance window."
    },
    {
     "id": "S09",
@@ -497,29 +585,29 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Calder Packaging Ltd owns **60%** of Calder Plastics Ltd. [CORP-002#1.0]"
+    "answer": "The catalog contains about **180,000 products** from **2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011."
    },
    {
     "id": "S10",
     "kind": "single",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "**90 days.**\n\nAccording to Amendment 2 to the Master Supply Agreement, Clause 2 (Price indexation), Calder Packaging Ltd must notify Brightwater Foods plc **at least 90 days** before any carton price change takes effect. [MSA-001-A2#3.0]"
+    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is `card-payments-enabled=false`\u3010RB-PAY-DECLINES#2.0\u3011."
    },
    {
     "id": "S11",
     "kind": "single",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nCalder Packaging Ltd must pay the annual invoice for the Tessellate licence **within 14 days of receiving each annual invoice** [LIC-009#3.0].\n\nThis obligation arises under Clause 4 (Fees) of the Software Licence between Tessellate Software Ltd and Calder Packaging Ltd. The other documents in the context (the Master Supply Agreement, its amendment, the Settlement Agreement, and the Notice of Assignment) relate to Calder Packaging's dealings with Brightwater Foods plc and Orchard Finance Ltd, and do not affect the payment terms for the Tessellate licence."
+    "answer": "Sentinel should promote the Redis replica within **30\u202fseconds** of a primary failure.  \n[ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]"
    },
    {
     "id": "S12",
@@ -527,10 +615,54 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "Only the orders-service explicitly specifies a connection\u2011pool size: it holds a pool of **40 database connections** through PgBouncer. No other service\u2019s pool size is defined in the provided context."
+   },
+   {
+    "id": "S13",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "According to the termination notice, the Cold Storage Agreement ends on **31 December 2025** [NOT-008#1.0].\n\nThe notice was issued by Northwind Logistics Ltd, citing that Meridian Cold Storage Ltd reported temperature excursions on three occasions as the reason for termination. Northwind Logistics Ltd is also required to collect all stored goods before the end date [NOT-008#1.0]."
+    "answer": "Customers received SMS up to 9\u202fhours late during the incident. [PM-2025-06#1.0]"
+   },
+   {
+    "id": "S14",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "About 3,100 orders were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]"
+   },
+   {
+    "id": "S15",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The Numidia Pay integration contract promises **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]"
+   },
+   {
+    "id": "S16",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The events\u2011bus backlog alert fires when any queue holds **more than 50,000 messages** waiting to be processed. [SVC-EVENTS#2.0]"
    },
    {
     "id": "M01",
@@ -540,63 +672,63 @@
     "mrr": 1.0,
     "fact": 1.0,
     "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nUnder the Master Supply Agreement as amended, Brightwater Foods plc has **45 days** to pay Calder Packaging Ltd invoices.\n\n**Reasoning:**\n\n1. The original Master Supply Agreement set the payment term at 30 days: \"Brightwater Foods plc shall pay Calder Packaging Ltd within 30 days of receiving each invoice.\" [MSA-001#3.0]\n\n2. Amendment 1 to the Master Supply Agreement replaced Clause 4, changing the payment term to 45 days: \"Brightwater Foods plc shall pay Calder Packaging Ltd within 45 days of receiving each invoice.\" [MSA-001-A1#2.0]\n\n3. Amendment 2 [MSA-001-A2#3.0] addresses price indexation only and does not alter the payment terms.\n\nThe graph path confirms that Amendment 1 and Amendment 2 are both amendments to the same Master Supply Agreement (MSA-001-A1 \u2190[REFERENCES]\u2192 MSA-001-A2), and both Brightwater Foods plc and Calder Packaging Ltd are parties to the MSA.\n\n**Therefore, the current payment term is 45 days.**"
+    "grounded": 1.0,
+    "answer": "The primary on\u2011call engineer for the checkout\u2011api service is **Nabil\u202fFerhat**\u3010ONC-PAY#0.0\u3011\u3010SVC-CHECKOUT#0.0\u3011."
    },
    {
     "id": "M02",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The term of the Master Supply Agreement has been extended until **31 January 2028** [MSA-001-A2#2.0].\n\nThis extension was made by Amendment 2 to the Master Supply Agreement (MSA-001-A2), which amends the original MSA-001 [MSA-001-A2#0.0]. The original agreement (dated 2023-02-01) had an expiry date of 31 January 2026 [MSA-001#0.0], so Amendment 2 extended the term by two years."
+    "answer": "The alert **PaymentDeclineRateHigh** is handled by the runbook **RB\u2011PAY\u2011DECLINES** [RB-PAY-DECLINES#0.0].  \nThe escalation contact is the on\u2011call rota for Checkout & Payments, **ONC\u2011PAY**, whose escalation contact is called for any SEV1 or when card payments have been failing for more than 15\u202fminutes [ONC-PAY#1.0]."
    },
    {
     "id": "M03",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.3333333333333333,
     "fact": 0.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "**Ashford Industrial Group plc** guarantees the supplier's obligations under the Master Supply Agreement.\n\nSpecifically, under the Parent Company Guarantee (GUA-005), Ashford Industrial Group plc commits to \"perform any obligation of Calder Packaging Ltd under the Master Supply Agreement that Calder Packaging Ltd fails to perform\" [GUA-005#2.0]. The guarantee document identifies Ashford Industrial Group plc as the Guarantor and Brightwater Foods plc as the Beneficiary [GUA-005#0.0], and the graph confirms the relationship: GUA-005 \u2192[GUARANTEES]\u2192 MSA-001."
+    "answer": "Page the Platform on\u2011call first (the primary on\u2011call). If they don\u2019t respond within 5\u202fminutes, page the secondary on\u2011call. This follows the Platform on\u2011call rota for a shared infrastructure outage that affects every team. [ONC-PLATFORM#1.0]"
    },
    {
     "id": "M04",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "mrr": 0.5,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nThe guarantee that covers the supplier in the Master Supply Agreement is **GUA-005** (Parent Company Guarantee: Packaging Supply), which is linked to MSA-001 via the graph path `GUA-005 -[GUARANTEES]-> MSA-001`.\n\nThe liability cap of that guarantee is **500,000 GBP** [GUA-005#3.0]."
+    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** \u2013 uses Redis for session caching [SVC-AUTH#2.0]  \n- **checkout-api** \u2013 stores carts in Redis [SVC-CHECKOUT#2.0]  \n- **storefront-web** \u2013 caches product pages in Redis for 60\u202fs [SVC-STOREFRONT#2.0]"
    },
    {
     "id": "M05",
-    "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
-    "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nThe supplier under the Master Supply Agreement is **Calder Packaging Ltd** [MSA-001#1.0]. According to the graph paths, Calder Packaging Ltd is a subsidiary of **Ashford Industrial Group plc** [MSA-001 \u2190[PARTY_TO]\u2192 Calder Packaging Ltd \u2190[SUBSIDIARY_OF]\u2192 Ashford Industrial Group plc].\n\nTherefore, **Ashford Industrial Group plc** is the group that ultimately owns the supplier under the Master Supply Agreement."
-   },
-   {
-    "id": "M06",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
     "fact": 1.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Harbor Group Holdings plc** owns the carrier under the Transport Services Agreement.\n\n**Reasoning:**\n\n1. The Transport Services Agreement (LOG-002) is between **Northwind Logs Ltd** (the carrier) and Brightwater Dairy Ltd [LOG-002#1.0].\n\n2. The Group Structure Memo (CORP-001) states that **Harbor Group Holdings plc owns 100% of Northwind Logistics Ltd** [CORP-001#1.0].\n\n3. This ownership relationship is further corroborated by the Parent Company Guarantee (GUA-004), in which Harbor Group Holdings plc guarantees Northwind Logistics Ltd's payment obligations under the Transport Services Agreement [GUA-004#2.0].\n\n**Graph path:** LOG-002 \u2190[PARTY_TO]\u2014 Northwind Logistics Ltd \u2190[OWNED_BY]\u2014 Harbor Group Holdings plc (per CORP-001)"
+    "answer": "If **main\u2011db** goes down, the following services lose critical functionality:\n\n- **orders-service** \u2013 orders are stored in the orders schema of main\u2011db; without the DB the service cannot persist or retrieve orders, causing timeouts and connection\u2011exhaustion alerts. [SVC-ORDERS#2.0]  \n- **auth-service** \u2013 sessions are cached in Redis but also stored in main\u2011db; if the DB is down, no one can sign in. [SVC-AUTH#2.0]  \n- **catalog-service** \u2013 product data lives in the catalog schema of main\u2011db; without it the service cannot serve product pages. [SVC-CATALOG#2.0]  \n- **storefront-web** \u2013 product pages depend on catalog data; when catalog is down the storefront shows a maintenance page. [SVC-STOREFRONT#2.0]  \n\nOther services that rely on main\u2011db indirectly (e.g., search\u2011api via catalog events) may become stale but remain operational."
+   },
+   {
+    "id": "M06",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The outage was caused by the checkout service, which is owned by **TEAM\u2011PAY**\u3010SVC-CHECKOUT#0.0\u3011\u3010ADR-002 -[APPLIES_TO]-> SVC-CHECKOUT -[OWNED_BY]-> TEAM-PAY\u3011"
    },
    {
     "id": "M07",
@@ -605,9 +737,9 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Harbor Group Holdings plc** guarantees the carrier's (Northwind Logistics Ltd) payments under the Transport Services Agreement, and the guarantee is capped at **250,000 GBP**.\n\nSpecifically:\n\n- The guarantee clause states that \"Harbor Group Holdings plc shall pay Brightwater Dairy Ltd any sum that Northwind Logistics Ltd fails to pay when due under the Transport Services Agreement.\" [GUA-004#2.0]\n- The liability cap clause provides that \"The liability of the Guarantor is capped at 250,000 GBP.\" [GUA-004#3.0]\n\nThe document metadata confirms that GUA-004 is a Parent Company Guarantee that references and guarantees the Transport Services Agreement (LOG-002), with Harbor Group Holdings plc as Guarantor and Brightwater Dairy Ltd as Beneficiary. [GUA-004#0.0]"
+    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to:\n\n* Add an alert that triggers 30\u202fdays before any external certificate expires, to be in place by\u202f2025\u201108\u201131 [PM-2025-08#3.0].\n* Add a feature flag that can switch checkout to cash\u2011on\u2011delivery only, to be available by\u202f2025\u201108\u201120 [PM-2025-08#3.0].\n* Adopt the broader decision to monitor and automate external certificates, as outlined in ADR\u2011003 [ADR-003#1.0]."
    },
    {
     "id": "M08",
@@ -618,7 +750,7 @@
     "fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "Based on the provided context, I can identify the relevant parties and documents, but **the specific temperature requirement is not contained in the context provided**.\n\nHere is what the context does establish:\n\n1. **The subcontractor** approved in Amendment 1 to the Transport Services Agreement is **Meridian Cold Storage Ltd**, as stated in Clause 1 of LOG-002-A1: \"Northwind Logistics Ltd may store chilled goods with Meridian Cold Storage Ltd as an approved subcontractor.\" [LOG-002-A1#2.0]\n\n2. **The relevant document** for temperature requirements would be the **Cold Storage Agreement (STO-003)** between Northwind Logistics and Meridian Cold Storage, which is referenced by LOG-002-A1 per the graph paths.\n\nHowever, the context only provides the header for STO-003 (\"Cold Storage Agreement: Northwind Logistics and Meridian Cold Storage\") [STO-003#1.0] without any of its actual clause content. Therefore, the specific temperature that Meridian Cold Storage Ltd must maintain is **not available in the provided context**."
+    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was replaced by **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER#0.0]. The new runbook does not contain any instruction about manually restarting the primary; it focuses on failover procedures instead. If you need details on restarting the primary, that information is not present in the provided context."
    },
    {
     "id": "M09",
@@ -626,10 +758,10 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nAfter the renewal of the Transport Services Agreement, Northwind Logistics Ltd must deliver chilled goods **within 18 hours of collection**.\n\n**Reasoning:**\n\n1. The original Transport Services Agreement between Brightwater Dairy and Northwind Logistics required delivery of chilled goods to supermarket depots within **24 hours** of collection [LOG-002#2.0].\n\n2. The Renewal Letter (REN-012) renewed the agreement for two years until 31 May 2027 and explicitly **reduced the delivery window**, requiring Northwind Logistics Ltd to deliver chilled goods within **18 hours** of collection [REN-012#2.0].\n\n**Document connection:** Northwind Logistics Ltd is a party to the original Transport Services Agreement [LOG-002], and the renewal letter [REN-012] amends the delivery obligation under that agreement."
+    "answer": "ADR\u2011002 superseded ADR\u2011001 [ADR-002#0.0].  \nRedis now runs as a primary with one replica and Redis Sentinel, which automatically promotes the replica if the primary fails [SVC-REDIS#1.0]."
    },
    {
     "id": "M10",
@@ -640,7 +772,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The Transport Services Agreement has been renewed until **31 May 2027** [REN-012#2.0].\n\nThe renewal letter specifies that the agreement is renewed for two years, with an additional condition that the delivery window is reduced so that Northwind Logistics Ltd shall deliver chilled goods within 18 hours of collection [REN-012#2.0]."
+    "answer": "The team that owns **search\u2011api** is **TEAM\u2011DISCOVERY**, whose lead is **Imene Djebbar** [TEAM-DISCOVERY#0.0]."
    },
    {
     "id": "M11",
@@ -649,31 +781,31 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "## Answer\n\nThe amendment that authorised the subcontractor is **LOG-002-A1 (Amendment 1 to the Transport Services Agreement)**.\n\n**Reasoning chain:**\n\n1. The notice that ended the Cold Storage Agreement is **NOT-008**, which terminates STO-003. [NOT-008#0.0]\n\n2. The subcontractor named in that notice is **Meridian Cold Storage Ltd**, identified as the recipient and the party whose temperature excursions triggered the termination. [NOT-008#1.0]\n\n3. The Cold Storage Agreement (STO-003) references **LOG-002-A1** as the document under which the arrangement was established. [STO-003#0.0]\n\n4. Clause 1 of LOG-002-A1 explicitly states: *\"Northwind Logistics Ltd may store chilled goods with Meridian Cold Storage Ltd as an approved subcontractor.\"* [LOG-002-A1#2.0]\n\n**Graph path connecting the documents:**\nSTO-003 \u2192[REFERENCES]\u2192 LOG-002-A1\n\nThus, it was **Amendment 1 to the Transport Services Agreement (LOG-002-A1)** that authorised Meridian Cold Storage Ltd as the approved subcontractor."
+    "answer": "Yes \u2013 the events\u2011bus backlog caused an incident (SMS delivery was delayed by up to 9\u202fhours) and the resulting runbook is **RB\u2011EVENTS\u2011BACKLOG**. [PM-2025-06] shows the incident, and the graph links it to the runbook via the service SVC\u2011EVENTS. [PM-2025-06] [RB-EVENTS-BACKLOG]"
    },
    {
     "id": "M12",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
+    "fact": 0.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nThe parent company that owns the warehouse operator is **Harbor Group Holdings plc**.\n\nHere is the chain of reasoning:\n\n1. **Termination notice recipient:** Northwind Logistics Ltd issued a Notice of Termination to **Meridian Cold Storage Ltd** [NOT-008#0.0].\n\n2. **Warehouse operator role:** Meridian Cold Storage Ltd is identified as the \"Warehouse Operator\" under the Cold Storage Agreement (STO-003) [STO-003#0.0].\n\n3. **Ownership:** Harbor Group Holdings plc owns 80% of Meridian Cold Storage Ltd [CORP-001#1.0].\n\nTherefore, **Harbor Group Holdings plc** is the parent company that owns the warehouse operator (Meridian Cold Storage Ltd) which received the termination notice from Northwind Logistics."
+    "answer": "The notifications\u2011worker service is owned by the **Orders & Delivery** team (TEAM\u2011ORDERS).  \nThe on\u2011call rota for that team is **ONC\u2011ORDERS**:\n\n* **Primary on\u2011call:** Sara\u202fMeziane  \n* **Secondary on\u2011call:** Hamza\u202fToumi  \n\n[ONC\u2011ORDERS]"
    },
    {
     "id": "M13",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 0.5,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nAfter Amendment 1, Tessellate Software Ltd must keep the planning platform available at least **99.9% of each month** [SLA-006-A1#2.0].\n\nThis is an increase from the original SLA, which required only 99.5% monthly availability [SLA-006#2.0]. Amendment 1 (effective 2024-10-01) explicitly replaces Clause 2 of the Software Service Level Agreement with the higher 99.9% target [SLA-006-A1#0.0]."
+    "answer": "The Platform team received the following action items from postmortems:\n\n1. Add a dead\u2011letter queue to every queue on the events bus by 2025\u201107\u201115. [PM-2025-06#3.0]  \n2. Run Redis with a replica and Sentinel by 2025\u201104\u201130. [PM-2025-03#3.0]"
    },
    {
     "id": "M14",
@@ -681,95 +813,139 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Orbis Capital Partners LP** owns the software provider that must notify Brightwater Foods of data breaches.\n\n**Reasoning chain:**\n\n1. **Identify the software provider with breach notification obligations:**\n   The Data Processing Addendum (DPA-010) states that \"Tessellate Software Ltd shall notify Brightwater Foods plc of any personal data breach within 48 hours of becoming aware of it.\" [DPA-010#2.0]\n\n2. **Identify the investor/owner of that provider:**\n   The company profile for Tessellate Software Ltd states that \"Orbis Capital Partners LP owns 70% of Tessellate Software Ltd.\" [CORP-004#1.0]\n\n**Graph path confirming the connection:**\nDPA-010 \u2190[PARTY_TO]\u2014 Tessellate Software Ltd \u2014[SUBSIDIARY_OF]\u2192 Orbis Capital Partners LP \u2014[PARTY_TO]\u2192 CORP-004"
+    "answer": "The expired Numidia Pay client certificate caused a failure in the **payments\u2011gateway** service, which handles card payments. Cash\u2011on\u2011delivery orders continued to work because they do not rely on the Numidia Pay processor. [PM-2025-08#1.0] [SVC-PAYMENTS#2.0]"
    },
    {
     "id": "M15",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nTessellate Software Ltd must keep the data confidential for **3 years**.\n\n**Reasoning:**\n\n1. The Software Service Level Agreement (SLA-006) references NDA-007, indicating that the NDA predates the SLA [SLA-006#0.0].\n2. NDA-007 is the \"Mutual Non-Disclosure Agreement\" between Brightwater Foods and Tessellate Software [NDA-007#2.0].\n3. Clause 2 of NDA-007 explicitly states: \"Tessellate Software Ltd shall keep all Brightwater Foods plc recipe and volume data confidential for **3 years**\" [NDA-007#2.0]."
+    "answer": "Checkout depends on the external provider **Numidia Pay** for card payments.  \nIts client\u2011certificate expiry alert (`NumidiaPayCertificateExpiry`) is triggered **30\u202fdays before the certificate expires**.  \n\n[SVC-NUMIDIAPAY#3.0]"
    },
    {
     "id": "M16",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nSince 1 February 2025, Brightwater Foods plc must pay Calder Packaging Ltd's invoices to **Orchard Finance Ltd**.\n\nThis is established by the Notice of Assignment of Receivables [ASG-013#1.0], in which Calder Packaging Ltd assigned its right to payment of invoices under the Master Supply Agreement [MSA-001] to Orchard Finance Ltd. The notice explicitly states: \"From 1 February 2025 Brightwater Foods plc shall pay all invoices of Calder Packaging Ltd to Orchard Finance Ltd.\"\n\n**Document connection:** The assignment notice [ASG-013] references the Master Supply Agreement [MSA-001], and both Brightwater Foods plc and Calder Packaging Ltd are parties to the assignment [ASG-013]."
+    "answer": "The orders-service still uses a pool of 40 database connections. [SVC-ORDERS#2.0]"
    },
    {
     "id": "M17",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Based on the graph paths, I can trace the relationship:\n\n1. **SET-011** (Settlement Agreement: Late Delivers) **REFERENCES** **MSA-001-A1** (Amendment 1 to the Master Supply Agreement) [SET-011 -[REFERENCES]-> MSA-001-A1].\n2. **MSA-001-A1** is Amendment 1 to **MSA-001** (the Master Supply Agreement), which is the contract whose payment terms were changed by that amendment.\n\nHowever, the context provided for **SET-011** only contains the document header and a \"## Clauses\" section marker \u2014 no actual clause text or settlement amount is included [SET-011#1.0].\n\n**The context does not contain the settlement amount.** The specific payment figure from the Settlement Agreement (SET-011) is not present in the provided chunks."
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The secondary on\u2011call for the team that owns the payments\u2011gateway service is **Lina Cherif** [ONC-PAY#0.0]."
    },
    {
     "id": "M18",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
-    "mrr": 0.25,
-    "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\n**Ashford Industrial Group plc** is the ultimate parent of the company that assigned its receivables under the Master Supply Agreement.\n\nHere is the reasoning chain:\n\n1. **Identifying the assignor:** The Notice of Assignment of Receivables states that \"Calder Packaging Ltd assigns its right to payment of invoices under the Master Supply Agreement to Orchard Finance Ltd.\" [ASG-013#1.0]\n\n2. **Identifying the parent company:** The document GUA-005 is titled \"Parent Company Guarantee: Packaging Supply\" and identifies **Ashford Industrial Group plc** as the Guarantor, guaranteeing MSA-001 (the Master Supply Agreement between Brightwater Foods and Calder Packaging). [GUA-005#0.0]\n\n3. **Confirming the relationship via graph paths:** The graph shows:\n   - `GUA-005 -[GUARANTEES]-> MSA-001`\n   - `GUA-005 <-[PARTY_TO]- Ashford Industrial Group plc`\n\n   This confirms that Ashford Industrial Group plc, as the guarantor in a \"Parent Company Guarantee\" for the packaging supply agreement, is the parent of Calder Packaging Ltd.\n\n4. **Ultimate parent:** No further `SUBSIDIARY_OF` relationship is shown above Ashford Industrial Group plc in the provided context, making it the **ultimate parent**."
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The only architecture decision that applies to **orders\u2011service** is the PgBouncer configuration:\n\n- **PgBouncer in front of the main database** with a fixed pool of **40 connections** for orders\u2011service.  \n  [ADR-004#2.0] [SVC-ORDERS#0.0]"
    },
    {
     "id": "M19",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The issue of carts disappearing during checkout is covered by the **RB\u2011REDIS\u2011FAILOVER** runbook, which addresses \u201cconnection refused\u201d or \u201cREADONLY\u201d errors from Redis that cause cart loss. The team responsible for the root cause is **TEAM\u2011PAY**, which owns the checkout path and related services.  \n\n- Runbook: RB\u2011REDIS\u2011FAILOVER [RB-REDIS-FAILOVER]  \n- Owning team: TEAM\u2011PAY [TEAM-PAY]"
+   },
+   {
+    "id": "M20",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "**Rosa Whitlock** signed the parent company guarantee covering the contract between Brightwater Dairy and its carrier.\n\nHere is the chain of reasoning:\n\n1. The contract between Brightwater Dairy and its carrier (Northwind Logistics Ltd) is the **Transport Services Agreement** (LOG-002) [LOG-002#0.0].\n\n2. The parent company guarantee that covers LOG-002 is **GUA-004** (Parent Company Guarantee: Transport Services), as confirmed by the graph path: GUA-004 \u2192[GUARANTEES]\u2192 LOG-002.\n\n3. According to the document metadata for GUA-004, the signatory is **Rosa Whitlock**, acting on behalf of **Harbor Group Holdings plc** (the Guarantor) [GUA-004#0.0]."
+    "answer": "The post\u2011mortem for the June\u202f2025 events\u2011bus incident lists the notifications\u2011worker (SVC\u2011NOTIFY) as the service that was impacted by the backlog, and the SMS queue backlog threshold is 20\u202f000 messages [PM-2025-06#3.0][SVC-NOTIFY#2.0]. The exact number of SMS that piled up during the incident is not specified in the provided context."
+   },
+   {
+    "id": "M21",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The escalation contact for the database (SVC\u2011MAINDB) that catalog\u2011service depends on is **Sofiane\u202fLarbi** [ONC-PLATFORM#0.0]."
+   },
+   {
+    "id": "M22",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The outage led to the decision in **ADR\u2011002** to run Redis with a replica and Sentinel, replacing the single\u2011host setup.  \nFailover should complete in under **15\u202fminutes** \u2013 if Redis is still unhealthy after that, the Platform escalation contact is paged. [ADR-002#1.0] [RB-REDIS-FAILOVER#3.0]"
+   },
+   {
+    "id": "M23",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The storefront\u2019s dependency that is owned by the Checkout & Payments team is the **checkout\u2011api service (SVC\u2011CHECKOUT)**.  \n[TEAM\u2011PAY <-[OWNED_BY]- SVC\u2011CHECKOUT]"
    }
   ]
  },
  "hybrid": {
   "all": {
-   "n": 31,
-   "recall": 0.887,
-   "full": 0.774,
-   "mrr": 0.901,
-   "fact": 0.742,
-   "answer_fact": 0.903,
-   "grounded": 0.742
+   "n": 39,
+   "recall": 0.859,
+   "full": 0.692,
+   "mrr": 0.844,
+   "fact": 0.59,
+   "answer_fact": 0.487,
+   "grounded": 0.897
   },
   "single": {
-   "n": 12,
+   "n": 16,
    "recall": 1.0,
    "full": 1.0,
-   "mrr": 1.0,
-   "fact": 0.917,
-   "answer_fact": 0.917,
-   "grounded": 0.917
+   "mrr": 0.938,
+   "fact": 0.938,
+   "answer_fact": 0.812,
+   "grounded": 1.0
   },
   "multi": {
-   "n": 19,
-   "recall": 0.816,
-   "full": 0.632,
-   "mrr": 0.838,
-   "fact": 0.632,
-   "answer_fact": 0.895,
-   "grounded": 0.632
+   "n": 23,
+   "recall": 0.761,
+   "full": 0.478,
+   "mrr": 0.779,
+   "fact": 0.348,
+   "answer_fact": 0.261,
+   "grounded": 0.826
   },
   "rows": [
    {
@@ -781,7 +957,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "**Brightwater Dairy must pay Northwind Logistics invoices within 21 days of receiving each invoice.**\n\nThis is specified in Clause 5 (Charges) of the Transport Services Agreement between the two parties [LOG-002#3.0]. The graph path confirms the direct contractual relationship: Northwind Logistics Ltd \u2192 [PARTY_TO] \u2192 LOG-002 \u2190 [PARTY_TO] \u2190 Brightwater Dairy Ltd."
+    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**\u3010SVC-REDIS#2.0\u3011."
    },
    {
     "id": "S02",
@@ -789,10 +965,10 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Based on the provided context, **no specific liability cap is stated for the Harbor Group Holdings guarantee (GUA-004)**.\n\nThe context only includes Clause 1 of GUA-004, which establishes the guarantee obligation:\n\n> \"Harbor Group Holdings plc shall pay Brightwater Dairy Ltd any sum that Northwind Logistics Ltd fails to pay when due under the Transport Services Agreement.\" [GUA-004#2.0]\n\nNo cap clause (e.g., a \"Clause 2 \u2013 Cap\") is provided in the context for GUA-004.\n\n**Note:** A cap of 500,000 GBP does appear in the context, but it belongs to a *different* guarantee \u2014 GUA-005 (Parent Company Guarantee: Packaging Supply) [GUA-005#3.0] \u2014 and is not applicable to the Harbor Group Holdings guarantee in question.\n\nThe context does not contain the answer to this question."
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The main\u2011db primary accepts at most 400 connections. [SVC-MAINDB#2.0]"
    },
    {
     "id": "S03",
@@ -803,7 +979,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nTessellate Software Ltd must notify Brightwater Foods plc of any personal data breach **within 48 hours** of becoming aware of it. [DPA-010#2.0]\n\nThis obligation is set out in Clause 3 (Breach notification) of the Data Processing Addendum (DPA-010), which amends the Software Service Level Agreement (SLA-006) between the two parties. [DPA-010#2.0] [SLA-006#0.0]"
+    "answer": "Calls to Numidia Pay time out after 8\u202fseconds and are retried once. [SVC-PAYMENTS#2.0]"
    },
    {
     "id": "S04",
@@ -814,7 +990,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The mutual non-disclosure agreement between Brightwater Foods and Tessellate is governed by the law of **Scotland** [NDA-007#0.0]."
+    "answer": "CheckoutHighErrorRate fires when more than 2% of checkout requests return a 5xx error for **5 minutes** [SVC-CHECKOUT#3.0]."
    },
    {
     "id": "S05",
@@ -825,7 +1001,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nRecipe and volume data must be kept confidential for **3 years**.\n\nThis obligation is set out in Clause 2 of the Mutual Non-Disclosure Agreement (NDA-007) between Brightwater Foods plc and Tessellate Software Ltd, which states:\n\n> \"Tessellate Software Ltd shall keep all Brightwater Foods plc recipe and volume data confidential for 3 years.\" [NDA-007#2.0]\n\nThe NDA is referenced by the Software Service Level Agreement (SLA-006) between the same parties, establishing the contractual link between the service agreement and the confidentiality obligations. [SLA-006#0.0]"
+    "answer": "A full rebuild of the search index takes roughly **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]"
    },
    {
     "id": "S06",
@@ -836,7 +1012,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Meridian Cold Storage Ltd must hold chilled goods at **between 1 and 5 degrees Celsius** at all times. [STO-003#2.0]\n\nThis obligation arises under the Cold Storage Agreement between Northwind Logistics and Meridian Cold Storage, where Northwind Logistics may store chilled goods with Meridian as an approved subcontractor. [LOG-002-A1#2.0]"
+    "answer": "The notifications worker sends about **90,000 SMS per day** [SVC-NOTIFY#1.0]."
    },
    {
     "id": "S07",
@@ -847,7 +1023,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Calder Packaging Ltd agreed to pay **42,000 GBP** to Brightwater Foods plc by 30 September 2024 in settlement of claims for late carton deliveries under the Master Supply Agreement [SET-011#2.0]."
+    "answer": "Main\u2011db keeps full nightly backups and write\u2011ahead logs for 14\u202fdays. [SVC-MAINDB#3.0]"
    },
    {
     "id": "S08",
@@ -858,7 +1034,7 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "**Daniel Okafor** signed the parent company guarantee for Ashford Industrial Group plc.\n\nAccording to the document metadata for GUA-005 (Parent Company Guarantee: Packaging Supply), the signatory listed for Ashford Industrial Group plc (the Guarantor) is **Daniel Okafor** [GUA-005#0.0]. This guarantee was provided in favor of Brightwater Foods plc (the Beneficiary) and relates to the Master Supply Agreement (MSA-001) [GUA-005#0.0]."
+    "answer": "The shared infrastructure maintenance window is every Tuesday from\u202f02:00\u202fto\u202f04:00\u202fAlgiers time. [TEAM-PLATFORM#2.0]"
    },
    {
     "id": "S09",
@@ -869,29 +1045,29 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Calder Packaging Ltd owns **60%** of Calder Plastics Ltd. [CORP-002#1.0]"
+    "answer": "The catalog contains **180,000 products** from **2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011."
    },
    {
     "id": "S10",
     "kind": "single",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "**90 days.**\n\nUnder Amendment 2 to the Master Supply Agreement, Calder Packaging Ltd must notify Brightwater Foods plc **at least 90 days** before any carton price change takes effect [MSA-001-A2#3.0]. This amendment forms part of the Master Supply Agreement between the two parties [MSA-001-A2#3.0]."
+    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is `card-payments-enabled=false`\u3010RB-PAY-DECLINES#2.0\u3011."
    },
    {
     "id": "S11",
     "kind": "single",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nCalder Packaging Ltd must pay Tessellate Software Ltd **within 14 days of receiving each annual invoice** for the Tessellate licence. [LIC-009#3.0]\n\nThis is set out in Clause 4 (Fees) of the Software Licence agreement between Tessellate Software Ltd and Calder Packaging Ltd."
+    "answer": "Sentinel should promote the Redis replica within **30\u202fseconds** of a primary failure.  \n[ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]"
    },
    {
     "id": "S12",
@@ -899,76 +1075,120 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "Only the orders\u2011service has a documented pool size: it holds a pool of 40 database connections through PgBouncer. No other service\u2019s pool size is specified in the provided context."
+   },
+   {
+    "id": "S13",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "According to the termination notice, the Cold Storage Agreement ends on **31 December 2025** [NOT-008#1.0].\n\nThe notice, issued by Northwind Logistics Ltd, states that the agreement terminates on that date because Meridian Cold Storage Ltd reported temperature excursions on three occasions [NOT-008#1.0]. This is confirmed by the document metadata, which lists the effective date of the termination as 2025-12-31 and identifies STO-003 (the Cold Storage Agreement) as the contract being terminated [NOT-008#0.0]."
+    "answer": "Customers received order\u2011confirmation SMS up to **9 hours late** during the incident. [PM-2025-06#1.0]"
+   },
+   {
+    "id": "S14",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "About 3,100 orders were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]"
+   },
+   {
+    "id": "S15",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The Numidia Pay integration contract promises **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]"
+   },
+   {
+    "id": "S16",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The events\u2011bus backlog alert fires when any queue holds more than **50,000** waiting messages. [SVC-EVENTS#2.0]"
    },
    {
     "id": "M01",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
     "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\nUnder the Master Supply Agreement as amended, Brightwater Foods plc has **45 days** to pay Calder Packaging Ltd invoices.\n\n**Reasoning:**\n\n1. The original Master Supply Agreement set the payment term at 30 days: \"Brightwater Foods plc shall pay Calder Packaging Ltd within 30 days of receiving each invoice.\" [MSA-001#3.0]\n\n2. Amendment 1 to the Master Supply Agreement replaced Clause 4, changing the payment term to 45 days: \"Brightwater Foods plc shall pay Calder Packaging Ltd within 45 days of receiving each invoice.\" [MSA-001-A1#2.0]\n\n3. Amendment 2 [MSA-001-A2#3.0] addresses price indexation only and does not alter the payment terms.\n\nThe graph path confirms that Amendment 1 and Amendment 2 are both amendments to the same Master Supply Agreement (MSA-001-A1 \u2190[REFERENCES]\u2192 MSA-001-A2), and both Brightwater Foods plc and Calder Packaging Ltd are parties to the MSA.\n\n**Therefore, the current payment term is 45 days.**"
+    "grounded": 1.0,
+    "answer": "The primary on\u2011call engineer for the **checkout\u2011api** service is **Nabil\u202fFerhat**.  \n[SVC-CHECKOUT#0.0] \u2192 [TEAM-PAY] \u2192 [ONC-PAY#0.0] (Primary: Nabil Ferhat)"
    },
    {
     "id": "M02",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The term of the Master Supply Agreement has been extended until **31 January 2028** [MSA-001-A2#2.0].\n\nThis extension was made by Amendment 2 to the Master Supply Agreement (MSA-001-A2), which amends the original MSA-001 [MSA-001-A2#0.0]. The original agreement (dated 2023-02-01) had an expiry date of 31 January 2026 [MSA-001#0.0], so Amendment 2 extended the term by two years."
+    "answer": "The alert **PaymentDeclineRateHigh** is handled by the runbook **RB\u2011PAY\u2011DECLINES** [RB-PAY-DECLINES#0.0].  \nThe escalation contact is the on\u2011call rota for Checkout & Payments, **ONC\u2011PAY**, whose escalation contact is called for any SEV1 or when card payments have been failing for more than 15\u202fminutes [ONC-PAY#1.0]."
    },
    {
     "id": "M03",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Ashford Industrial Group plc** guarantees the supplier's obligations under the Master Supply Agreement.\n\nSpecifically, Clause 1 of the Parent Company Guarantee (GUA-005) states that \"Ashford Industrial Group plc shall perform any obligation of Calder Packaging Ltd under the Master Supply Agreement that Calder Packaging Ltd fails to perform.\" [GUA-005#2.0]\n\nThe graph paths confirm this relationship: GUA-005 directly guarantees MSA-001 (the Master Supply Agreement), and MSA-001 references GUA-005. [GUA-005#1.0]"
+    "answer": "Page the Platform on\u2011call first (the primary on\u2011call). If they don\u2019t respond within 5\u202fminutes, page the secondary. [ONC-PLATFORM#1.0]"
    },
    {
     "id": "M04",
     "kind": "multi",
-    "recall": 0.5,
+    "recall": 0.3333333333333333,
     "full": 0.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nThe guarantee that covers the Master Supply Agreement (MSA-001) is **GUA-005** (Parent Company Guarantee: Packaging Supply), as shown by the graph path: GUA-005 -[GUARANTEES]-> MSA-001.\n\nThe liability cap of that guarantee is **500,000 GBP** [GUA-005#3.0]."
+    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** \u2013 uses Redis for session caching [SVC-REDIS<-[DEPENDS_ON]-SVC-AUTH].\n- **checkout-api** \u2013 stores carts in Redis [SVC-REDIS<-[DEPENDS_ON]-SVC-CHECKOUT].\n- **storefront-web** \u2013 caches product pages in Redis for 60\u202fs [SVC-REDIS<-[DEPENDS_ON]-SVC-STOREFRONT]."
    },
    {
     "id": "M05",
     "kind": "multi",
     "recall": 0.5,
     "full": 0.0,
-    "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 1.0,
+    "mrr": 0.25,
+    "fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "## Answer\n\nThe supplier under the Master Supply Agreement is **Calder Packaging Ltd** [MSA-001#1.0]. According to the graph paths, Calder Packaging Ltd is a subsidiary of **Ashford Industrial Group plc** [MSA-001 \u2190[PARTY_TO]\u2192 Calder Packaging Ltd \u2190[SUBSIDIARY_OF]\u2192 Ashford Industrial Group plc].\n\nTherefore, **Ashford Industrial Group plc** is the group that ultimately owns the supplier under the Master Supply Agreement."
+    "answer": "If **main\u2011db** goes down, the following services lose critical functionality:\n\n- **orders-service** \u2013 orders are stored in the orders schema of main\u2011db; without the DB the service cannot persist or retrieve orders, causing timeouts and connection\u2011exhaustion alerts. [SVC-ORDERS#2.0]  \n- **auth-service** \u2013 sessions are cached in Redis but also stored in main\u2011db; if the DB is down, no one can sign in. [SVC-AUTH#2.0]  \n- **catalog-service** \u2013 product data lives in the catalog schema of main\u2011db; without it the service cannot serve product pages, and the storefront will show a maintenance page. [SVC-CATALOG#2.0]  \n- **storefront-web** \u2013 relies on catalog data; when catalog is down, product pages fail and the site falls back to a maintenance view. [SVC-STOREFRONT#2.0]  \n\nOther services that depend on main\u2011db (e.g., search\u2011api indirectly via catalog events) may become stale or fail to index new changes, but the primary breakage is in orders, auth, catalog, and storefront."
    },
    {
     "id": "M06",
     "kind": "multi",
     "recall": 0.5,
     "full": 0.0,
-    "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Harbor Group Holdings plc** owns the carrier under the Transport Services Agreement.\n\nThe Transport Services Agreement (LOG-002) is between Brightwater Dairy Ltd and **Northwind Logistics Ltd** [LOG-002#1.0]. Northwind Logistics Ltd is the carrier party to the agreement.\n\nAccording to the Group Structure Memo, **Harbor Group Holdings plc owns 100% of Northwind Logistics Ltd** [CORP-001#1.0]. This ownership relationship is further corroborated by the Parent Company Guarantee, in which Harbor Group Holdings plc guarantees Northwind Logistics Ltd's payment obligations under the Transport Services Agreement [GUA-004#2.0]."
+    "answer": "The outage was caused by the checkout service, which is owned by **TEAM\u2011PAY**\u3010SVC-CHECKOUT#0.0\u3011\u3010ADR-002 -[APPLIES_TO]-> SVC-CHECKOUT -[OWNED_BY]-> TEAM-PAY\u3011"
    },
    {
     "id": "M07",
@@ -977,20 +1197,20 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Harbor Group Holdings plc** guarantees the carrier's (Northwind Logistics Ltd) payments under the Transport Services Agreement, and the guarantee is capped at **250,000 GBP**.\n\nSpecifically:\n\n- The guarantee clause states that \"Harbor Group Holdings plc shall pay Brightwater Dairy Ltd any sum that Northwind Logistics Ltd fails to pay when due under the Transport Services Agreement.\" [GUA-004#2.0]\n- The liability cap clause provides that \"The liability of the Guarantor is capped at 250,000 GBP.\" [GUA-004#3.0]\n\nThe document metadata confirms that GUA-004 is a Parent Company Guarantee that references and guarantees the Transport Services Agreement (LOG-002), with Harbor Group Holdings plc as Guarantor and Brightwater Dairy Ltd as Beneficiary. [GUA-004#0.0]"
+    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to:\n\n* Add an alert that triggers 30\u202fdays before any external certificate expires, to be in place by\u202f2025\u201108\u201131. [PM-2025-08#3.0]  \n* Add a feature flag that allows the checkout to switch to cash\u2011on\u2011delivery only, to be enabled by\u202f2025\u201108\u201120. [PM-2025-08#3.0]"
    },
    {
     "id": "M08",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
+    "recall": 1.0,
+    "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "Based on the provided context, I can identify the relevant parties and documents, but **the specific temperature requirement is not contained in the context provided**.\n\nHere is what the context does establish:\n\n1. **The subcontractor** approved in Amendment 1 to the Transport Services Agreement is **Meridian Cold Storage Ltd**, as stated in Clause 1 of LOG-002-A1: \"Northwind Logistics Ltd may store chilled goods with Meridian Cold Storage Ltd as an approved subcontractor.\" [LOG-002-A1#2.0]\n\n2. **The relevant document** for temperature requirements would be the **Cold Storage Agreement (STO-003)** between Northwind Logistics and Meridian Cold Storage, which is referenced by LOG-002-A1 per the graph paths.\n\nHowever, the context only provides the header for STO-003 (\"Cold Storage Agreement: Northwind Logistics and Meridian Cold Storage\") [STO-003#1.0] without any of its actual clause content. Therefore, the specific temperature that Meridian Cold Storage Ltd must maintain is **not available in the provided context**."
+    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was replaced by **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER#0.0]. The new runbook does not contain any instruction about manually restarting the primary; it focuses on failover procedures instead. If you need details on restarting the primary, that information is not present in the provided context."
    },
    {
     "id": "M09",
@@ -998,10 +1218,10 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nAfter the renewal of the Transport Services Agreement, Northwind Logistics Ltd must deliver chilled goods within **18 hours** of collection.\n\n**Reasoning:**\n\n1. The original Transport Services Agreement (LOG-002) required delivery of chilled goods within **24 hours** of collection [LOG-002#2.0].\n\n2. The Renewal Letter (REN-012), which amends LOG-002 [REN-012#0.0], explicitly states that \"the delivery window is reduced and Northwind Logistics Ltd shall deliver chilled goods within **18 hours** of collection\" [REN-012#2.0].\n\n**Document connection:** REN-012 \u2192 amends \u2192 LOG-002 (as confirmed by the metadata field \"Amends: LOG-002\" in [REN-012#0.0])."
+    "answer": "ADR\u2011002 superseded ADR\u2011001 [ADR-002#0.0][ADR-001#0.0].  \nSince April\u202f2025 Redis runs as a primary with one replica and Redis\u202fSentinel, which automatically promotes the replica if the primary fails [SVC-REDIS#1.0]."
    },
    {
     "id": "M10",
@@ -1012,40 +1232,40 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The Transport Services Agreement has been renewed until **31 May 2027** [REN-012#2.0].\n\nThe original agreement between Brightwater Dairy Ltd and Northwind Logistics Ltd was set to expire on 31 May 2025 [LOG-002#0.0], and the renewal letter extended it for two years to 31 May 2027 [REN-012#2.0]."
+    "answer": "The team that owns **search\u2011api** is **TEAM\u2011DISCOVERY**, whose lead is **Imene Djebbar** [TEAM-DISCOVERY#0.0]."
    },
    {
     "id": "M11",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 0.0,
-    "answer": "## Answer\n\nThe amendment that authorised the subcontractor is **LOG-002-A1 (Amendment 1 to the Transport Services Agreement)**.\n\n**Reasoning chain:**\n\n1. The notice that ended the Cold Storage Agreement is **NOT-008**, which terminates STO-003. [NOT-008#0.0]\n\n2. The subcontractor named in that notice is **Meridian Cold Storage Ltd**, identified as the recipient and the party whose temperature excursions triggered the termination. [NOT-008#1.0]\n\n3. The Cold Storage Agreement (STO-003) references **LOG-002-A1** as its governing amendment. [STO-003#0.0]\n\n4. Clause 1 of LOG-002-A1 explicitly states: *\"Northwind Logistics Ltd may store chilled goods with Meridian Cold Storage Ltd as an approved subcontractor.\"* [LOG-002-A1#2.0]\n\n**Graph path connecting the documents:**\nSTO-003 \u2192[REFERENCES]\u2192 LOG-002-A1\n\nThus, it was **Amendment 1 to the Transport Services Agreement (LOG-002-A1)** that authorised Meridian Cold Storage Ltd as the approved subcontractor."
+    "answer": "Yes \u2013 the events\u2011bus backlog caused an incident (SMS delivery was delayed by up to 9\u202fhours) and the resulting runbook is **RB\u2011EVENTS\u2011BACKLOG**. [PM-2025-06] shows the incident, and the graph links it to the runbook via the service SVC\u2011EVENTS. [PM-2025-06] [RB-EVENTS-BACKLOG]"
    },
    {
     "id": "M12",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
+    "fact": 0.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nThe warehouse operator that received the termination notice from Northwind Logistics is **Meridian Cold Storage Ltd** [NOT-008#0.0], which is identified as the \"Warehouse Operator\" in the Cold Storage Agreement [STO-003#0.0].\n\nThe parent company that owns Meridian Cold Storage Ltd is **Harbor Group Holdings plc**, which holds an 80% ownership stake in it [CORP-001#1.0]."
+    "answer": "The notifications\u2011worker service is owned by **TEAM\u2011ORDERS** [SVC\u2011NOTIFY#2.0 \u2192 TEAM\u2011ORDERS].  \nThe on\u2011call rota for that team is **ONC\u2011ORDERS** [ONC\u2011ORDERS].  \nSo the primary on\u2011call engineer is **Sara\u202fMeziane** and the secondary is **Hamza\u202fToumi**."
    },
    {
     "id": "M13",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
-    "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 0.5,
+    "fact": 0.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nAfter Amendment 1, Tessellate Software Ltd must keep the planning platform available at least **99.9% of each month** [SLA-006-A1#2.0].\n\nThis is an increase from the original SLA, which required only 99.5% monthly availability [SLA-006#2.0]. Amendment 1 (effective 2024-10-01) explicitly replaces Clause 2 of the Software Service Level Agreement with the higher 99.9% target [SLA-006-A1#0.0]."
+    "answer": "The Platform team received the following action items from the post\u2011mortems:\n\n1. **Add a dead\u2011letter queue to every queue on the events bus** by 2025\u201107\u201115.  \n   [PM-2025-06#3.0]\n\n2. **Run Redis with a replica and Sentinel** by 2025\u201104\u201130.  \n   [PM-2025-03#3.0]"
    },
    {
     "id": "M14",
@@ -1053,24 +1273,35 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\n**Orbis Capital Partners LP** owns the software provider that must notify Brightwater Foods of data breaches.\n\nHere is the chain of reasoning:\n\n1. **The software provider with the breach notification obligation is Tessellate Software Ltd.**\n   The Data Processing Addendum states: \"Tessellate Software Ltd shall notify Brightwater Foods plc of any personal data breach within 48 hours of becoming aware of it.\" [DPA-010#2.0]\n\n2. **The investor that owns Tessellate Software Ltd is Orbis Capital Partners LP.**\n   The company profile for Tessellate Software states: \"Orbis Capital Partners LP owns 70% of Tessellate Software Ltd.\" [CORP-004#1.0]\n\nThis is further confirmed by the graph path:\nDPA-010 \u2190[PARTY_TO]\u2014 Tessellate Software Ltd \u2014[SUBSIDIARY_OF]\u2192 Orbis Capital Partners LP \u2014[PARTY_TO]\u2192 CORP-004"
+    "answer": "The expired Numidia Pay client certificate caused a failure in the **payments\u2011gateway** service, which handles card payments. Cash\u2011on\u2011delivery orders continued to work because they do not rely on the Numidia Pay processor. [PM-2025-08#1.0] [SVC-PAYMENTS#2.0]"
    },
    {
     "id": "M15",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
-    "mrr": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 0.25,
     "fact": 1.0,
-    "answer_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "**3 years.**\n\nThe NDA that preceded the Software Service Level Agreement is **NDA-007** (the Mutual Non-Disclosure Agreement between Brightwater Foods and Tessellate Software), which is referenced by SLA-006 [SLA-006#0.0]. Under Clause 2 of that NDA, Tessellate Software Ltd is required to keep all Brightwater Foods plc recipe and volume data confidential for **3 years** [NDA-007#2.0]."
+    "answer": "Checkout depends on the external provider **Numidia\u202fPay** for card payments.  \nIts certificate alert, **NumidiaPayCertificateExpiry**, fires **30\u202fdays before the client certificate expires**. [SVC-NUMIDIAPAY#3.0]"
    },
    {
     "id": "M16",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The orders-service still uses a pool of 40 database connections. [SVC-ORDERS#2.0]"
+   },
+   {
+    "id": "M17",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
@@ -1078,40 +1309,73 @@
     "fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "## Answer\n\nSince 1 February 2025, Brightwater Foods plc must pay Calder Packaging Ltd's invoices to **Orchard Finance Ltd**.\n\nThis is established by the Notice of Assignment of Receivables, which states: \"Calder Packaging Ltd assigns its right to payment of invoices under the Master Supply Agreement to Orchard Finance Ltd. From 1 February 2025 Brightwater Foods plc shall pay all invoices of Calder Packaging Ltd to Orchard Finance Ltd.\" [ASG-013#1.0]\n\nThe assignment references the Master Supply Agreement between Brightwater Foods and Calder Packaging [ASG-013#1.0], and both parties to the assignment are confirmed as Brightwater Foods plc and Calder Packaging Ltd [ASG-013#1.0]."
-   },
-   {
-    "id": "M17",
-    "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
-    "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Based on the graph paths, I can trace the relationship:\n\n1. **SET-011** (Settlement Agreement: Late Deliveries) references **MSA-001-A1** (Amendment 1 to the Master Supply Agreement) [SET-011 -[REFERENCES]-> MSA-001-A1].\n2. **MSA-001-A1** is Amendment 1 to **MSA-001** (Master Supply Agreement), which is the contract whose payment terms were changed by Amendment 1.\n\nHowever, the context provided for **SET-011** only contains the document header (\"Settlement Agreement: Late Deliveries\" with a \"## Clauses\" section) and does not include the actual clause text specifying the settlement amount.\n\n**The context does not contain the answer.** The specific payment amount in the settlement agreement (SET-011) is not provided in the available context."
+    "answer": "The secondary on\u2011call for the team that owns the payments\u2011gateway service is **Lina\u202fCherif** [ONC-PAY#0.0]."
    },
    {
     "id": "M18",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
-    "mrr": 0.25,
-    "fact": 0.0,
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
     "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "## Answer\n\n**Ashford Industrial Group plc** is the ultimate parent of the company that assigned its receivables under the Master Supply Agreement.\n\nHere is the reasoning chain:\n\n1. **Identifying the assignor:** The Notice of Assignment of Receivables states that \"Calder Packaging Ltd assigns its right to payment of invoices under the Master Supply Agreement to Orchard Finance Ltd.\" [ASG-013#1.0]\n\n2. **Identifying the parent company:** The document GUA-005 is titled \"Parent Company Guarantee: Packaging Supply\" and identifies **Ashford Industrial Group plc** as the Guarantor, guaranteeing MSA-001 (the Master Supply Agreement between Brightwater Foods and Calder Packaging). [GUA-005#0.0]\n\n3. **Confirming the relationship via graph paths):** The graph shows:\n   - `GUA-005 -[GUARANTEES]-> MSA-001`\n   - `GUA-005 <-[PARTY_TO]- Ashford Industrial Group plc`\n\n   This confirms that Ashford Industrial Group plc, as the guarantor in a \"Parent Company Guarantee\" for the packaging supply agreement, is the parent of the packaging supplier (Calder packaging Ltd). [GUA-005#0.0]\n\n4. **Ultimate parent:** No further `SUBSIDIARY_OF` relationship is shown above Ashford Industrial Group plc in the provided context, making it the **ultimate parent**."
+    "grounded": 1.0,
+    "answer": "The only architecture decision that applies to **orders\u2011service** is the PgBouncer configuration:\n\n* All services, including orders\u2011service, connect through PgBouncer in transaction mode with a fixed pool of **40 connections** for orders\u2011service.  \n  [ADR-004#2.0] [SVC-ORDERS#0.0]"
    },
    {
     "id": "M19",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 0.25,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The issue of carts disappearing during checkout is covered by the **RB\u2011REDIS\u2011FAILOVER** runbook, which addresses Redis connection problems that cause cart loss [RB-REDIS-FAILOVER].  \nThe root cause falls under the **SVC\u2011CHECKOUT** service, which is owned by the **Team\u202fPay** (Checkout & Payments) team [SVC-CHECKOUT] \u2192 [OWNED_BY] [TEAM-PAY]."
+   },
+   {
+    "id": "M20",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "The post\u2011mortem for the June\u202f2025 events\u2011bus incident lists the notifications\u2011worker (SVC\u2011NOTIFY) as the service that was impacted by the backlog, and the SMS queue backlog threshold is 20\u202f000 messages [PM-2025-06#3.0][SVC-NOTIFY#2.0]. The exact number of SMS that piled up during the incident is not specified in the provided context."
+   },
+   {
+    "id": "M21",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The escalation contact for the database that catalog-service depends on (SVC\u2011MAINDB) is **Sofiane\u202fLarbi**\u3010ONC-PLATFORM#0.0\u3011."
+   },
+   {
+    "id": "M22",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 0.0,
-    "answer": "**Rosa Whitlock** signed the parent company guarantee covering the contract between Brightwater Dairy and its carrier.\n\nHere is the chain of reasoning:\n\n1. The contract between Brightwater Dairy and its carrier (Northwind Logistics Ltd) is the **Transport Services Agreement** (LOG-002) [LOG-002#0.0].\n\n2. The parent company guarantee that covers LOG-002 is **GUA-004** (Parent Company Guarantee: Transport Services), as confirmed by the graph path: GUA-004 \u2192[GUARANTEES]\u2192 LOG-002.\n\n3. According to the document metadata for GUA-004, the signatory is **Rosa Whitlock**, acting on behalf of **Harbor Group Holdings plc** (the Guarantor) [GUA-004#0.0]."
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The outage led to the decision in **ADR\u2011002** to run Redis with a replica and Sentinel instead of a single host, changing how Redis operates in the system.  \nThe failover runbook (**RB\u2011REDIS\u2011FAILOVER**) specifies that if Redis is not healthy, the Platform escalation contact should be paged after **15\u202fminutes** \u2013 meaning failover should complete within that window.  \n\n[ADR-002#1.0] [RB-REDIS-FAILOVER#3.0]"
+   },
+   {
+    "id": "M23",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The storefront\u2019s only dependency that is owned by the Checkout & Payments team is the **checkout\u2011api service (SVC\u2011CHECKOUT)**.  \n[SVC-STOREFRONT#0.0] \u2192 depends on \u2192 [SVC-CHECKOUT#2.0] and [SVC-CHECKOUT#2.0] is owned by [TEAM-PAY#1.0]\u3010SVC-STOREFRONT#0.0\u3011\u3010SVC-CHECKOUT#2.0\u3011\u3010TEAM-PAY#1.0\u3011"
    }
   ]
  }

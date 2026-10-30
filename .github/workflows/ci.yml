@@ -13,14 +13,14 @@ jobs:
         ports:
           - 7688:7687
         env:
-          NEO4J_AUTH: neo4j/lexgraph-pass
+          NEO4J_AUTH: neo4j/opsgraph-pass
           NEO4J_PLUGINS: '["apoc"]'
         options: >-
-          --health-cmd "cypher-shell -u neo4j -p lexgraph-pass 'RETURN 1'"
+          --health-cmd "cypher-shell -u neo4j -p opsgraph-pass 'RETURN 1'"
           --health-interval 5s --health-timeout 5s --health-retries 30
     env:
       NEO4J_URI: bolt://localhost:7688
-      NEO4J_PASSWORD: lexgraph-pass
+      NEO4J_PASSWORD: opsgraph-pass
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,7 +32,7 @@ jobs:
       - run: ruff format --check .
       - run: pytest
       - name: Retrieval evals (no LLM)
-        run: python -m lexgraph.evaluation --out eval-report.md
+        run: python -m opsgraph.evaluation --out eval-report.md
       - uses: actions/upload-artifact@v4
         with:
           name: eval-report
@@ -59,5 +59,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: docker build -t lexgraph-api .
-      - run: docker build -t lexgraph-ui ui
+      - run: docker build -t opsgraph-api .
+      - run: docker build -t opsgraph-ui ui
