@@ -3,7 +3,7 @@ numbers in docs/eval-report.md so a real regression fails CI but noise does not.
 
 import pytest
 
-from opsgraph.evaluation import load_questions, run_retrieval
+from opsgraph.evaluation import load_questions, norm, parse_judge, run_retrieval
 
 
 @pytest.fixture(scope="module")
@@ -40,3 +40,20 @@ def test_hybrid_beats_vector_on_multi_hop(results):
 def test_overall_mrr_floor(results):
     for name in ("vector", "graph", "hybrid"):
         assert results[name]["all"]["mrr"] >= 0.8
+
+
+def test_norm_ignores_markdown_and_unusual_spaces():
+    assert norm("**Never** restart the primary") == norm("never restart the primary")
+    assert "kamel benyahia" in norm("Page `Kamel Benyahia` first")
+
+
+def test_parse_judge_reads_json_inside_reasoning_and_fences():
+    raw = '<think>check facts</think>```json\n{"correctness": "partial", "faithful": true}\n```'
+    assert parse_judge(raw) == {"answer_judge": 0.5, "faithful": 1.0}
+
+
+def test_parse_judge_rejects_replies_without_a_verdict():
+    with pytest.raises(ValueError):
+        parse_judge("Looks right to me.")
+    with pytest.raises(ValueError):
+        parse_judge('{"correctness": "great", "faithful": true}')

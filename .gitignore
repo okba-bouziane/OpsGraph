@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 node_modules/
 .fastembed_cache/
+*.tsbuildinfo
+.DS_Store

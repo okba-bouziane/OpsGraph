@@ -32,7 +32,7 @@ class RetrievedChunk:
     doc_id: str
     text: str
     score: float
-    via: str = "vector"  # vector | graph | both
+    via: str = "vector"  # vector | graph | both | evidence (added for the answer, not ranked)
 
     def as_dict(self) -> dict:
         return {
@@ -185,6 +185,29 @@ class Retriever:
             raise ValueError(f"unknown retriever {retriever!r}; choose from {RETRIEVERS}")
         strategies = {"vector": self.vector, "graph": self.graph, "hybrid": self.hybrid}
         return strategies[retriever](question, k)
+
+    # -- answer context ------------------------------------------------------------------
+    def with_evidence(
+        self, question: str, result: RetrievalResult, per_doc: int = config.EVIDENCE_PER_DOC
+    ) -> RetrievalResult:
+        """Adds, for each retrieved document, its best-matching chunks that are not already in the result.
+
+        The graph retriever keeps one chunk per document and prefers the header (owner, on-call names),
+        so a fact written in the body of a runbook or decision can be missing from the top k. Retrieval is
+        still scored on the top k; only the answer step reads the extra chunks."""
+        if per_doc <= 0 or not result.chunks:
+            return result
+        have = {c.chunk_id for c in result.chunks}
+        best: dict[str, list[RetrievedChunk]] = {}
+        for r in self.db.run(*q_chunks_of_docs(result.doc_ids(), self._embed(question, None))):
+            if r["chunk_id"] not in have:
+                best.setdefault(r["doc_id"], []).append(
+                    RetrievedChunk(r["chunk_id"], r["doc_id"], r["text"], float(r["score"]), "evidence")
+                )
+        extra = [
+            c for d in result.doc_ids() for c in sorted(best.get(d, []), key=lambda c: c.score, reverse=True)[:per_doc]
+        ]
+        return RetrievalResult(result.retriever, result.chunks + extra, result.paths, result.seeds)
 
     # -- subgraph for the UI -------------------------------------------------------------
     def subgraph(self, result: RetrievalResult) -> dict:

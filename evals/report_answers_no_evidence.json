@@ -1,0 +1,1262 @@
+{
+ "vector": {
+  "all": {
+   "n": 39,
+   "recall": 0.799,
+   "full": 0.667,
+   "mrr": 0.818,
+   "fact": 0.667
+  },
+  "single": {
+   "n": 16,
+   "recall": 1.0,
+   "full": 1.0,
+   "mrr": 0.938,
+   "fact": 1.0
+  },
+  "multi": {
+   "n": 23,
+   "recall": 0.659,
+   "full": 0.435,
+   "mrr": 0.736,
+   "fact": 0.435
+  },
+  "rows": [
+   {
+    "id": "S01",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S02",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S03",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S04",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S05",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S06",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S07",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S08",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S09",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S10",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "S11",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "S12",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S13",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S14",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S15",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S16",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M01",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "M02",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M03",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0
+   },
+   {
+    "id": "M04",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0
+   },
+   {
+    "id": "M05",
+    "kind": "multi",
+    "recall": 0.0,
+    "full": 0.0,
+    "mrr": 0.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M06",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M07",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M08",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M09",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M10",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M11",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M12",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M13",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 0.0
+   },
+   {
+    "id": "M14",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M15",
+    "kind": "multi",
+    "recall": 0.0,
+    "full": 0.0,
+    "mrr": 0.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M16",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M17",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "M18",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M19",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 0.25,
+    "fact": 1.0
+   },
+   {
+    "id": "M20",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M21",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M22",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M23",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   }
+  ]
+ },
+ "graph": {
+  "all": {
+   "n": 39,
+   "recall": 0.936,
+   "full": 0.872,
+   "mrr": 0.876,
+   "fact": 0.667,
+   "ctx_fact": 0.667,
+   "answer_fact": 0.513,
+   "grounded": 0.846,
+   "answer_judge": 0.756,
+   "faithful": 0.974
+  },
+  "single": {
+   "n": 16,
+   "recall": 1.0,
+   "full": 1.0,
+   "mrr": 0.938,
+   "fact": 0.938,
+   "ctx_fact": 0.938,
+   "answer_fact": 0.875,
+   "grounded": 0.938,
+   "answer_judge": 0.938,
+   "faithful": 1.0
+  },
+  "multi": {
+   "n": 23,
+   "recall": 0.891,
+   "full": 0.783,
+   "mrr": 0.833,
+   "fact": 0.478,
+   "ctx_fact": 0.478,
+   "answer_fact": 0.261,
+   "grounded": 0.783,
+   "answer_judge": 0.63,
+   "faithful": 0.957
+  },
+  "rows": [
+   {
+    "id": "S01",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**\u3010SVC-REDIS#2.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S02",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The main\u2011db primary accepts at most **400 connections**\u3010SVC-MAINDB#2.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S03",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "Calls to Numidia Pay time out after **8\u202fseconds** and are retried once. [SVC-PAYMENTS#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S04",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "CheckoutHighErrorRate fires when more than 2% of checkout requests return a 5xx error for **5 minutes**\u3010SVC-CHECKOUT#3.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S05",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "A full rebuild of the search index takes about **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S06",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The notifications\u2011worker sends about **90,000 SMS per day** [SVC-NOTIFY#1.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S07",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "Main\u2011DB full backups and write\u2011ahead logs are retained for 14\u202fdays.  \n[SVC-MAINDB#3.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S08",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The shared infrastructure maintenance window is every **Tuesday from 02:00 to 04:00 (Algiers time)**. [TEAM-PLATFORM#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S09",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The catalog holds **180,000 products** from **2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S10",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is:\n\n- **`card-payments-enabled=false`**\u3010RB-PAY-DECLINES#2.0\u3011",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S11",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "Sentinel should promote the Redis replica within **30\u202fseconds**.  \n[ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S12",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "The context does not specify a connection\u2011pool size for any service via PgBouncer. No pool size is mentioned in the ADR, runbooks, or service documents.",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S13",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "Customers received order\u2011confirmation SMS up to **9 hours late** during the incident. [PM-2025-06#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S14",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "About 3,100 orders were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S15",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The Numidia Pay integration contract promises **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "S16",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The events\u2011bus backlog alert (EventsQueueBacklog) is triggered when any queue holds **more than 50,000 messages** waiting. [SVC-EVENTS#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M01",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The primary on\u2011call engineer for **checkout\u2011api** is **Nabil Ferhat**.  \n[SVC-CHECKOUT#0.0] \u2192 [TEAM-PAY#0.0] \u2192 [ONC-PAY#0.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M02",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "The alert **PaymentDeclineRateHigh** is handled by the runbook **RB\u2011PAY\u2011DECLINES**\u202f[RB-PAY-DECLINES#0.0].  \nThe service that owns the alert is **SVC\u2011PAYMENTS** (owner: TEAM\u2011PAY)\u202f[SVC-PAYMENTS#0.0].\n\nThe escalation contact (on\u2011call rota, pager, etc.) is not listed in the provided context, so I cannot specify it here.",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M03",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.3333333333333333,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "Page the Platform on\u2011call first: Kamel\u202fBenyahia (primary on the ONC\u2011PLATFORM rota) [ONC-PLATFORM#0.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M04",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** \u2013 depends on SVC\u2011REDIS for session cache [SVC-AUTH#0.0]  \n- **storefront\u2011web** \u2013 depends on SVC\u2011REDIS for page cache [SVC-STOREFRONT#0.0]  \n- **checkout\u2011api** \u2013 depends on SVC\u2011REDIS for cart storage [SVC-CHECKOUT#0.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M05",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "If **SVC\u2011MAINDB** goes down, all services that list it as a dependency will fail:\n\n| Service | ID | Dependency on main\u2011db | Impact |\n|---------|----|-----------------------|--------|\n| orders\u2011service | **SVC\u2011ORDERS** | critical | API calls time out, order processing stops |\n| payments\u2011gateway | **SVC\u2011PAYMENTS** | payment records | payment processing fails |\n| catalog\u2011service | **SVC\u2011CATALOG** | critical | product data unavailable |\n| auth\u2011service | **SVC\u2011AUTH** | user accounts | login and session creation fail |\n\nThese dependencies are shown in the graph paths:  \n- `SVC\u2011ORDERS <-[DEPENDS_ON]- SVC\u2011MAINDB` [SVC-ORDERS]  \n- `SVC\u2011PAYMENTS <-[DEPENDS_ON]- SVC\u2011MAINDB` [SVC-PAYMENTS]  \n- `SVC\u2011CATALOG <-[DEPENDS_ON]- SVC\u2011MAINDB` [SVC-CATALOG]  \n- `SVC\u2011AUTH <-[DEPENDS_ON]- SVC\u2011MAINDB` [SVC-AUTH]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M06",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The outage was caused by the Redis service (SVC\u2011REDIS).  \nThe owner of SVC\u2011REDIS is not listed in the provided documents, so the team that owns it cannot be identified from this context.",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M07",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to:\n\n* Add an alert that triggers 30\u202fdays before any external certificate expires, to be in place by\u202f2025\u201108\u201131.  \n* Add a feature flag that can switch checkout to cash\u2011on\u2011delivery only, to be enabled by\u202f2025\u201108\u201120.  \n* Adopt a policy to monitor and automate external certificates.  \n\nThese decisions are recorded in the post\u2011mortem [PM\u20112025\u201108#3.0] and the ADR [ADR\u2011003#1.0].",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M08",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was superseded by **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-RESTART#0.0][RB-REDIS-FAILOVER#0.0].  \nIn the material provided, RB\u2011REDIS\u2011FAILOVER does not contain any explicit instruction about restarting the primary Redis instance.",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M09",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "ADR\u2011002 superseded ADR\u2011001\u202f[ADR-001#0.0] [ADR-002#0.0].  \nRedis now runs with a replica and Sentinel setup\u202f[ADR-002#0.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M10",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The team that owns **search\u2011api** is **TEAM\u2011DISCOVERY**, whose lead is **Imene Djebbar**. [TEAM-DISCOVERY#0.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M11",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "Yes \u2013 the events\u2011bus (SVC\u2011EVENTS) was the root cause of the 2025\u201106 incident that delayed SMS delivery for up to 9\u202fhours [PM-2025-06]. The post\u2011mortem lists the follow\u2011up runbook **RB\u2011EVENTS\u2011BACKLOG** to address the backlog that caused the outage [PM-2025-06]. The runbook is directly linked to the service: SVC\u2011EVENTS \u2190[RUNBOOK_FOR]\u2192 RB\u2011EVENTS\u2011BACKLOG [SVC\u2011EVENTS]\u2190[RUNBOOK_FOR]\u2192 RB\u2011EVENTS\u2011BACKLOG.",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M12",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The notifications\u2011worker service (SVC\u2011NOTIFY) is owned by **TEAM\u2011ORDERS**, which is covered by the **ONC\u2011ORDERS** on\u2011call rota.  \nThe primary on\u2011call engineer for that rota is **Sara\u202fMeziane** [SVC\u2011NOTIFY][ONC\u2011ORDERS].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M13",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 0.5,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The Platform team received two action items from the post\u2011mortems:\n\n1. **From PM\u20112025\u201106** \u2013 \u201cTEAM\u2011PLATFORM will add a dead\u2011letter queue to every queue on the events bus by\u202f2025\u201107\u201115.\u201d [PM-2025-06#3.0]  \n2. **From PM\u20112025\u201103** \u2013 \u201cTEAM\u2011PLATFORM will run Redis with a replica and Sentinel by\u202f2025\u201104\u201130.\u201d [PM-2025-03#3.0]",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M14",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The Numidia\u202fPay client\u2011certificate expiry caused a failure in the **payments\u2011gateway** service (SVC\u2011PAYMENTS) \u2013 all card payments were refused for 2\u202fh\u202f10\u202fm until the certificate was renewed. Cash\u2011on\u2011delivery orders continued to work normally. [PM-2025-08#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M15",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "Checkout depends on the external provider **SVC\u2011NUMIDIAPAY** for card payments [SVC-PAYMENTS#0.0][SVC-NUMIDIAPAY#0.0].  \nIts certificate alert, **NumidiaPayCertificateExpiry**, is configured to fire **30\u202fdays before the certificate expires** (the alert will be added by 2025\u201108\u201131) [PM-2025-08#3.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M16",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The orders\u2011service currently uses a pool of **40** database connections. [SVC-ORDERS#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M17",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The secondary on\u2011call for the team that owns **payments\u2011gateway** is **Lina Cherif**\u3010ONC-PAY#0.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M18",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The only architecture decision that applies to **orders\u2011service** is:\n\n- **ADR\u2011004** \u2013 \u201cPgBouncer in front of main\u2011db\u201d (orders\u2011service gets a fixed pool of 40 connections) [ADR-004#2.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M19",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "The cart\u2011loss incident was traced to the Redis cache.  \n* Runbook to follow up: **RB\u2011REDIS\u2011FAILOVER**\u202f[RB-REDIS-FAILOVER]  \n* The root\u2011cause runbook that was originally used: **RB\u2011REDIS\u2011RESTART**\u202f[RB-REDIS-RESTART]  \n\nThe Redis service is a dependency of the checkout API, which is owned by **TEAM\u2011PAY**\u202f[TEAM-PAY]. The specific owner of the Redis service itself is not listed in the provided context.",
+    "answer_judge": 0.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M20",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 0.0,
+    "answer": "The June\u202f2025 events\u2011bus incident impacted the **orders\u2011delivery** service (SVC\u2011DELIVERY) \u2013 this is the only service explicitly marked as impacted in the post\u2011mortem graph path\u202f[PM-2025-06\u00a0\u2192\u00a0SVC\u2011DELIVERY] [RB\u2011EVENTS\u2011BACKLOG\u00a0\u2190\u00a0PM\u20112025\u201106].  \n\nThe post\u2011mortem notes that SMS messages were delayed by up to 9\u202fhours, but it does not specify how many SMS messages piled up. No numeric count is present in the provided context.",
+    "answer_judge": 0.0,
+    "faithful": 0.0
+   },
+   {
+    "id": "M21",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The database behind **catalog-service** is **SVC\u2011MAINDB**.  \nIts owner team is **TEAM\u2011PLATFORM**, whose on\u2011call rota is **ONC\u2011PLATFORM**.  \nThe escalation contact listed in that rota is **Sofiane Larbi**.  \n\n[SVC\u2011MAINDB#0.0] \u2192 [ONC\u2011PLATFORM#0.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   },
+   {
+    "id": "M22",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 0.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The decision that changed how Redis runs is **ADR\u2011002 \u2013 \u201cDecision: Redis with a replica and Sentinel\u201d** [ADR-002#1.0].  \n\nThe runbook for Redis failover (RB\u2011REDIS\u2011FAILOVER) does not specify a target failover duration in the provided context.",
+    "answer_judge": 0.5,
+    "faithful": 1.0
+   },
+   {
+    "id": "M23",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 0.0,
+    "grounded": 1.0,
+    "answer": "The storefront\u2019s only dependency that is owned by the Checkout & Payments team is **SVC\u2011CHECKOUT** (checkout\u2011api)\u3010SVC-STOREFRONT#0.0\u3011\u3010SVC-CHECKOUT#0.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
+   }
+  ]
+ },
+ "hybrid": {
+  "all": {
+   "n": 39,
+   "recall": 0.846,
+   "full": 0.667,
+   "mrr": 0.843,
+   "fact": 0.564
+  },
+  "single": {
+   "n": 16,
+   "recall": 1.0,
+   "full": 1.0,
+   "mrr": 0.938,
+   "fact": 1.0
+  },
+  "multi": {
+   "n": 23,
+   "recall": 0.739,
+   "full": 0.435,
+   "mrr": 0.777,
+   "fact": 0.261
+  },
+  "rows": [
+   {
+    "id": "S01",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S02",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S03",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S04",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S05",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S06",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S07",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S08",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S09",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S10",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "S11",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "S12",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S13",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S14",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S15",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "S16",
+    "kind": "single",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M01",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "M02",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M03",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0
+   },
+   {
+    "id": "M04",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 0.3333333333333333,
+    "fact": 0.0
+   },
+   {
+    "id": "M05",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 0.25,
+    "fact": 0.0
+   },
+   {
+    "id": "M06",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M07",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M08",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M09",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M10",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M11",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M12",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M13",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 0.5,
+    "fact": 0.0
+   },
+   {
+    "id": "M14",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M15",
+    "kind": "multi",
+    "recall": 0.5,
+    "full": 0.0,
+    "mrr": 0.25,
+    "fact": 0.0
+   },
+   {
+    "id": "M16",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M17",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 0.5,
+    "fact": 1.0
+   },
+   {
+    "id": "M18",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   },
+   {
+    "id": "M19",
+    "kind": "multi",
+    "recall": 0.3333333333333333,
+    "full": 0.0,
+    "mrr": 0.2,
+    "fact": 0.0
+   },
+   {
+    "id": "M20",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M21",
+    "kind": "multi",
+    "recall": 0.6666666666666666,
+    "full": 0.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M22",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 0.0
+   },
+   {
+    "id": "M23",
+    "kind": "multi",
+    "recall": 1.0,
+    "full": 1.0,
+    "mrr": 1.0,
+    "fact": 1.0
+   }
+  ]
+ }
+}

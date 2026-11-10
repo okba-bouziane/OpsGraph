@@ -101,15 +101,23 @@ Measured on 39 labelled questions (16 single-hop, 23 multi-hop), k = 5 chunks, g
 - Hybrid now trails graph: fusing with the weaker vector ranking pushes graph-only documents (rotas, decisions) down. That is why the flow sends multi-hop questions to the graph retriever.
 - The graph retriever keeps one chunk per document, so it spreads the top 5 over more documents. For a document reached through an edge it prefers the header chunk, where the edge came from (owner, on-call names): that took multi-hop recall from 0.870 to 0.891 and full coverage from 0.739 to 0.783, but a fact written in the body of a decision or runbook can then be left out, so fact@5 did not move (0.478).
 
-LLM answers (`openai/gpt-oss-20b` on Groq, low reasoning effort, lexical groundedness check), [evals/report_rules_graph_answers.md](evals/report_rules_graph_answers.md). `answer_fact` is the share of answers that contain the gold fact:
+### Answers
 
-| Retriever | answer_fact single-hop | answer_fact multi-hop |
+Retrieval scores the top 5 chunks. The answer step reads those 5 **plus the best-matching other chunk of each retrieved document** (`EVIDENCE_PER_DOC`, default 1). The graph retriever keeps one chunk per document and prefers the header, where the owner and on-call names live, so a rule written in the body of a runbook or decision (for example "never restart the primary") was often missing from what the model read.
+
+Answer eval with `openai/gpt-oss-20b` on Groq, graph retriever, 39 questions, same code with and without the extra evidence. A judge from a different model family (`qwen/qwen3.8-27b`) grades each answer against the gold facts and the context it was given. Reports: [with evidence](evals/report_rules_graph_answers.md), [without](evals/report_answers_no_evidence.md).
+
+| Graph retriever, multi-hop (23) | Without evidence | With evidence |
 |---|---|---|
-| vector | 0.812 | 0.304 |
-| graph | 0.812 | 0.217 |
-| hybrid | 0.812 | 0.261 |
+| Gold fact present in the answer context | 0.478 | 0.739 |
+| Judge: correct (partial = 0.5) | 0.630 | 0.783 |
+| Answer contains the gold fact verbatim | 0.261 | 0.391 |
+| Judge: every claim supported by the context | 0.957 | 0.913 |
+| Lexical groundedness check passed | 0.783 | 1.000 |
 
-These numbers are the honest weak spot. Better retrieval did not turn into better answers: the graph retriever brought the right *documents* but often not the chunk holding the fact (the rota header with the on-call names, for example), and a small model then answered "the Platform on-call" without the name. The header-chunk boost described above was added after this run to fix exactly that; the screenshot shows the effect on one question, but the full answer eval could not be repeated the same day because the free tier's daily token limit (200,000 tokens) was reached. Treat the table as a snapshot of the earlier retriever.
+Over all 39 questions the judge score goes from 0.756 to 0.872 (single-hop 0.938 to 1.000). The verbatim metric is strict on purpose (an answer that says "Kamel Benyahia (primary)" counts, "the Platform on-call" does not), so it sits below the judge score.
+
+What is left: in four of the five multi-hop misses the fact never reaches the context (for example the decision record's "45 days" when the graph path stops at the postmortem), so the next step is retrieval, not the prompt. Two answers added a detail the context does not hold, which the judge caught; with more context to read, faithfulness dropped from 0.957 to 0.913. The 120b model was not used for this comparison because its daily token limit on the free tier was reached during the run.
 
 Thresholds are enforced in `tests/test_evals.py`.
 
@@ -145,7 +153,7 @@ docker compose up -d neo4j
 .venv/bin/python -m opsgraph.ingest rules      # or: llm
 .venv/bin/uvicorn opsgraph.api:app --port 8001
 .venv/bin/pytest                               # needs Neo4j reachable
-.venv/bin/python -m opsgraph.evaluation --out evals/report_rules_graph.md   # add --llm for answer-level scores
+.venv/bin/python -m opsgraph.evaluation --out evals/report_rules_graph.md   # add --llm --judge for answer scores
 ```
 
 The embedding model (~130 MB) downloads on first use.
@@ -216,6 +224,7 @@ pytest covers the extractor, the Cypher builders and intent detection, retrieval
 - Retrieval parameters (3 hops, 0.9 decay, 3 seeds, 1.2 intent boost, 1.1 header boost) were set by hand, not tuned or cross-validated.
 - The on-call rota is a static "primary / secondary / escalation" list; a real rota changes every week and would come from the paging tool's API.
 - Without an LLM key the answer step is extractive and the groundedness check is lexical; these are weaker than the LLM path.
+- The answer eval is run by hand (it needs an API key and spends daily tokens), not in CI. It uses one judge model; the judge was spot-checked, not validated against human grades.
 - No authentication, no incremental ingest, English only.
 
 ## License

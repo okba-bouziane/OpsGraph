@@ -39,6 +39,8 @@ MAX_ENTITY_PAIRS = 10  # pairs of named entities connected with shortest-path qu
 VECTOR_OVERSAMPLE = 4  # candidates fetched per requested chunk before exact re-scoring
 VECTOR_MIN_FETCH = 30
 
+# Extra best-matching chunks per retrieved document, given to the answer step only (not ranked).
+EVIDENCE_PER_DOC = int(os.getenv("EVIDENCE_PER_DOC", "1"))
 MAX_ANSWER_ATTEMPTS = 2  # the query flow retries once, wider, when an answer is not grounded
 
 

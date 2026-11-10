@@ -5,27 +5,21 @@
    "recall": 0.799,
    "full": 0.667,
    "mrr": 0.818,
-   "fact": 0.667,
-   "answer_fact": 0.513,
-   "grounded": 0.949
+   "fact": 0.667
   },
   "single": {
    "n": 16,
    "recall": 1.0,
    "full": 1.0,
    "mrr": 0.938,
-   "fact": 1.0,
-   "answer_fact": 0.812,
-   "grounded": 1.0
+   "fact": 1.0
   },
   "multi": {
    "n": 23,
    "recall": 0.659,
    "full": 0.435,
    "mrr": 0.736,
-   "fact": 0.435,
-   "answer_fact": 0.304,
-   "grounded": 0.913
+   "fact": 0.435
   },
   "rows": [
    {
@@ -34,10 +28,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**. [SVC-REDIS#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S02",
@@ -45,10 +36,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The main\u2011db primary accepts at most **400 connections**. [SVC-MAINDB#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S03",
@@ -56,10 +44,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Calls to Numidia Pay time out after 8\u202fseconds and are retried once. [SVC-PAYMENTS#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S04",
@@ -67,10 +52,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "CheckoutHighErrorRate fires when more than 2\u202f% of checkout requests return a 5xx error for **5 minutes** [SVC-CHECKOUT#3.0]."
+    "fact": 1.0
    },
    {
     "id": "S05",
@@ -78,10 +60,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "A full rebuild of the search index takes roughly **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]"
+    "fact": 1.0
    },
    {
     "id": "S06",
@@ -89,10 +68,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The notifications worker sends about **90,000 SMS per day** [SVC-NOTIFY#1.0]."
+    "fact": 1.0
    },
    {
     "id": "S07",
@@ -100,10 +76,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Main\u2011db keeps full nightly backups and WAL archives for 14\u202fdays. [SVC-MAINDB#3.0]"
+    "fact": 1.0
    },
    {
     "id": "S08",
@@ -111,10 +84,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The shared infrastructure maintenance window is every Tuesday from 02:00 to 04:00 (Algiers time)\u3010TEAM-PLATFORM#2.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "S09",
@@ -122,10 +92,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The catalog holds about **180,000 products from 2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "S10",
@@ -133,10 +100,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is `card-payments-enabled=false`\u3010RB-PAY-DECLINES#2.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "S11",
@@ -144,10 +108,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Sentinel should promote the Redis replica within **30\u202fseconds**.  \n[ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S12",
@@ -155,10 +116,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "Each service gets a fixed pool size through PgBouncer:\n\n- **orders\u2011service** \u2013 40 connections  \n- **catalog\u2011service** \u2013 30 connections  \n- **payments\u2011gateway** \u2013 20 connections  \n- **imports** \u2013 10 connections  \n\nThese values are defined in the ADR\u2011004 decision document [ADR-004#2.0]."
+    "fact": 1.0
    },
    {
     "id": "S13",
@@ -166,10 +124,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Customers received order\u2011confirmation SMS up to **9 hours late** during the incident. [PM-2025-06#1.0] [PM-2025-06#0.0]"
+    "fact": 1.0
    },
    {
     "id": "S14",
@@ -177,10 +132,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "About 3,100 orders were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]"
+    "fact": 1.0
    },
    {
     "id": "S15",
@@ -188,10 +140,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The Numidia Pay integration contract guarantees **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S16",
@@ -199,10 +148,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The EventsQueueBacklog alert fires when any queue on the events bus holds more than **50,000** waiting messages. [SVC-EVENTS#2.0]"
+    "fact": 1.0
    },
    {
     "id": "M01",
@@ -210,10 +156,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The primary on\u2011call engineer for the checkout\u2011api service is **Nabil\u202fFerhat**\u3010ONC-PAY#0.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "M02",
@@ -221,10 +164,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The alert **PaymentDeclineRateHigh** is covered by the runbook **RB\u2011PAY\u2011DECLINES**.  \nThe runbook states that if card payments have been failing for more than 15\u202fminutes, you should page the **Checkout & Payments escalation contact**.  \n\nSo, use runbook **RB\u2011PAY\u2011DECLINES** and contact the Checkout & Payments escalation team. [RB-PAY-DECLINES#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M03",
@@ -232,10 +172,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "Page the Platform on\u2011call team first, as they own the main\u2011db service and are listed in the Platform on\u2011call rota. If no response within 5\u202fminutes, page the secondary on\u2011call (Platform) as a shared infrastructure outage affects all teams. [SVC-MAINDB] [ONC-PLATFORM]"
+    "fact": 0.0
    },
    {
     "id": "M04",
@@ -243,10 +180,7 @@
     "recall": 0.3333333333333333,
     "full": 0.0,
     "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** \u2013 uses Redis for session caching [SVC-REDIS<-[DEPENDS_ON]-SVC-AUTH].\n- **checkout-api** \u2013 stores carts in Redis [SVC-REDIS<-[DEPENDS_ON]-SVC-CHECKOUT].\n- **storefront-web** \u2013 caches product pages in Redis for 60\u202fs [SVC-REDIS<-[DEPENDS_ON]-SVC-STOREFRONT]."
+    "fact": 0.0
    },
    {
     "id": "M05",
@@ -254,10 +188,7 @@
     "recall": 0.0,
     "full": 0.0,
     "mrr": 0.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "If **main\u2011db** goes down, the following services lose critical functionality:\n\n- **orders-service** \u2013 orders are stored in the orders schema of main\u2011db; without the DB the service cannot persist or retrieve orders, causing timeouts and connection\u2011exhaustion alerts. [SVC-ORDERS#2.0]  \n- **auth-service** \u2013 sessions are cached in Redis but also stored in main\u2011db; if the DB is down, no one can sign in. [SVC-AUTH#2.0]  \n- **catalog-service** \u2013 product data lives in the catalog schema of main\u2011db; without it the service cannot serve product pages. [SVC-CATALOG#2.0]  \n- **storefront-web** \u2013 product pages depend on catalog data; when catalog is down the storefront shows a maintenance page. [SVC-STOREFRONT#2.0]  \n\nOther services that rely on main\u2011db indirectly (e.g., search\u2011api via catalog events) may become stale but remain operational."
+    "fact": 0.0
    },
    {
     "id": "M06",
@@ -265,10 +196,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The outage was caused by the checkout service, which is owned by the **TEAM\u2011PAY** team. [SVC\u2011CHECKOUT#0.0] [SVC\u2011CHECKOUT -[OWNED_BY]-> TEAM\u2011PAY]"
+    "fact": 1.0
    },
    {
     "id": "M07",
@@ -276,10 +204,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to:\n\n* Add an alert that triggers 30\u202fdays before any external certificate expires, to be in place by\u202f2025\u201108\u201131 [PM-2025-08#3.0].\n* Add a feature flag that can switch the checkout flow to cash\u2011on\u2011delivery only, to be available by\u202f2025\u201108\u201120 [PM-2025-08#3.0].\n* Adopt the decision to monitor and automate external certificates, as recorded in ADR\u2011003 [ADR-003#1.0]."
+    "fact": 0.0
    },
    {
     "id": "M08",
@@ -287,10 +212,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was replaced by **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER#0.0]. The new runbook does not contain any instruction about manually restarting the primary; it focuses on failover procedures instead. If you need guidance on restarting the primary, that information is not present in the provided context."
+    "fact": 0.0
    },
    {
     "id": "M09",
@@ -298,10 +220,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "ADR\u2011002 superseded ADR\u2011001 [ADR-001#0.0].  \nUnder ADR\u2011002 Redis is run as a primary with one replica in a second rack, and a Redis Sentinel cluster with three voters is used to promote the replica automatically. Failover is expected to complete in under 30\u202fseconds [ADR-002#2.0]."
+    "fact": 1.0
    },
    {
     "id": "M10",
@@ -309,10 +228,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The team that owns **search\u2011api** is **Search & Catalog** (TEAM\u2011DISCOVERY), and its lead is **Imene Djebbar** [TEAM\u2011DISCOVERY#0.0]."
+    "fact": 1.0
    },
    {
     "id": "M11",
@@ -320,10 +236,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "Yes \u2013 the events\u2011bus backlog caused the incident documented in **PM\u20112025\u201106** (SMS delayed by up to 9\u202fhours) [PM-2025-06]. The runbook that was produced as a follow\u2011up is **RB\u2011EVENTS\u2011BACKLOG** (Runbook: Events bus backlog) [RB-EVENTS-BACKLOG]."
+    "fact": 0.0
    },
    {
     "id": "M12",
@@ -331,10 +244,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The notifications\u2011worker service is owned by the **Orders & Delivery** team (TEAM\u2011ORDERS) [SVC\u2011NOTIFY].  \nThe on\u2011call rota for that team is **ONC\u2011ORDERS** [ONC\u2011ORDERS].  \nSo the primary on\u2011call engineer for the notifications worker is **Sara\u202fMeziane** (secondary Hamza\u202fToumi)."
+    "fact": 0.0
    },
    {
     "id": "M13",
@@ -342,10 +252,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The Platform team received the following action items from post\u2011mortems:\n\n1. **Add a dead\u2011letter queue to every queue on the events bus** \u2013 due by 2025\u201107\u201115. [PM-2025-06#3.0]  \n2. **Run Redis with a replica and Sentinel** \u2013 due by 2025\u201104\u201130. [PM-2025-03#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M14",
@@ -353,10 +260,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The Numidia Pay client certificate expired, causing the **numidia\u2011pay** service to refuse all card payments for about 2\u202fhours and 10\u202fminutes. Cash\u2011on\u2011delivery orders continued to work during that period. [PM-2025-08#1.0] [SVC-NUMIDIAPAY#3.0]"
+    "fact": 1.0
    },
    {
     "id": "M15",
@@ -364,10 +268,7 @@
     "recall": 0.0,
     "full": 0.0,
     "mrr": 0.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "Checkout\u2011API depends on the external card\u2011payment provider **Numidia\u202fPay** for processing card payments.  \nIts client certificate is monitored by the **NumidiaPayCertificateExpiry** alert, which fires **30\u202fdays before the certificate expires**. [SVC-NUMIDIAPAY#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M16",
@@ -375,10 +276,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The orders-service still uses a pool of 40 database connections. [SVC-ORDERS#2.0]"
+    "fact": 0.0
    },
    {
     "id": "M17",
@@ -386,10 +284,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The secondary on\u2011call for the team that owns the **payments\u2011gateway** service is **Lina\u202fCherif**\u3010ONC-PAY#0.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "M18",
@@ -397,10 +292,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The only architecture decision that applies to **orders\u2011service** in the provided context is the PgBouncer connection\u2011pooling policy:\n\n- **PgBouncer in front of main\u2011db** \u2013 orders\u2011service is allocated a fixed pool of **40** connections in transaction mode.  \n  [ADR-004#2.0]"
+    "fact": 1.0
    },
    {
     "id": "M19",
@@ -408,10 +300,7 @@
     "recall": 0.3333333333333333,
     "full": 0.0,
     "mrr": 0.25,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The carts disappearing at checkout are caused by a Redis failure.  \nThe appropriate runbook is **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER].  \nThe service affected is **SVC\u2011CHECKOUT**, which is owned by the **Checkout & Payments** team (TEAM\u2011PAY) [TEAM-PAY]."
+    "fact": 1.0
    },
    {
     "id": "M20",
@@ -419,10 +308,7 @@
     "recall": 0.3333333333333333,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "The June\u202f2025 events\u2011bus incident impacted the services that depend on the events bus:\u202forders\u2011service, delivery\u2011tracker, notifications\u2011worker, and catalog\u2011service\u202f[SVC-ORDERS#1.0][SVC-DELIVERY#2.0][SVC-NOTIFY#2.0][SVC-CATALOG#2.0].  \n\nThe post\u2011mortem notes that SMS were delayed by up to nine hours, but the exact number of SMS that piled up is not specified in the provided context."
+    "fact": 1.0
    },
    {
     "id": "M21",
@@ -430,10 +316,7 @@
     "recall": 0.6666666666666666,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The escalation contact for the database (SVC\u2011MAINDB) that catalog\u2011service depends on is **Sofiane\u202fLarbi**\u3010ONC-PLATFORM#0.0\u3011."
+    "fact": 0.0
    },
    {
     "id": "M22",
@@ -441,10 +324,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The outage led to the decision in **ADR\u2011002** to run Redis with a replica and Sentinel, replacing the single\u2011host setup.  \nFailover is expected to complete within **15\u202fminutes** \u2013 if Redis is still unhealthy after that, the runbook instructs to page the Platform escalation contact. [ADR-002#1.0] [RB-REDIS-FAILOVER#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M23",
@@ -452,22 +332,22 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The storefront depends on the checkout service, which is owned by the Checkout & Payments team.  \n- Storefront\u2011web lists **SVC\u2011CHECKOUT** as a critical dependency for buying.  \n- The Checkout & Payments team (TEAM\u2011PAY) owns the checkout API.  \n\nThus, the storefront dependency owned by Checkout & Payments is **SVC\u2011CHECKOUT**. [SVC-STOREFRONT#0.0] [TEAM-PAY#1.0]"
+    "fact": 1.0
    }
   ]
  },
  "graph": {
   "all": {
    "n": 39,
-   "recall": 0.923,
-   "full": 0.846,
-   "mrr": 0.889,
+   "recall": 0.936,
+   "full": 0.872,
+   "mrr": 0.876,
    "fact": 0.667,
-   "answer_fact": 0.462,
-   "grounded": 0.897
+   "ctx_fact": 0.846,
+   "answer_fact": 0.564,
+   "grounded": 1.0,
+   "answer_judge": 0.872,
+   "faithful": 0.949
   },
   "single": {
    "n": 16,
@@ -475,17 +355,23 @@
    "full": 1.0,
    "mrr": 0.938,
    "fact": 0.938,
+   "ctx_fact": 1.0,
    "answer_fact": 0.812,
-   "grounded": 0.938
+   "grounded": 1.0,
+   "answer_judge": 1.0,
+   "faithful": 1.0
   },
   "multi": {
    "n": 23,
-   "recall": 0.87,
-   "full": 0.739,
-   "mrr": 0.855,
+   "recall": 0.891,
+   "full": 0.783,
+   "mrr": 0.833,
    "fact": 0.478,
-   "answer_fact": 0.217,
-   "grounded": 0.87
+   "ctx_fact": 0.739,
+   "answer_fact": 0.391,
+   "grounded": 1.0,
+   "answer_judge": 0.783,
+   "faithful": 0.913
   },
   "rows": [
    {
@@ -495,9 +381,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**\u3010SVC-REDIS#2.0\u3011."
+    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**\u3010SVC-REDIS#2.0\u3011\u3010ADR-001#2.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S02",
@@ -506,9 +395,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The main\u2011db primary accepts at most **400 connections**. [SVC-MAINDB#2.0]"
+    "answer": "The main\u2011db primary accepts at most **400 connections**\u3010SVC-MAINDB#2.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S03",
@@ -517,9 +409,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Calls to Numidia Pay time out after 8\u202fseconds and are retried once. [SVC-PAYMENTS#2.0]"
+    "answer": "Calls to Numidia Pay time out after **8\u202fseconds** (and are retried once)\u3010SVC-PAYMENTS#2.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S04",
@@ -528,9 +423,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "CheckoutHighErrorRate fires when more than 2% of checkout requests return a 5xx error for **5 minutes** [SVC-CHECKOUT#3.0]."
+    "answer": "CheckoutHighErrorRate fires when more than 2% of checkout requests return a 5xx error for **5 minutes**\u3010SVC-CHECKOUT#3.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S05",
@@ -539,9 +437,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "A full rebuild of the search index takes about **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]"
+    "answer": "A full rebuild of the search index takes about **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S06",
@@ -550,9 +451,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The notifications worker sends about **90,000 SMS per day** [SVC-NOTIFY#1.0]."
+    "answer": "The notifications\u2011worker sends about **90,000 SMS per day**\u202f[SVC\u2011NOTIFY#1.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S07",
@@ -561,9 +465,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Main\u2011db write\u2011ahead logs are archived every 5\u202fminutes and kept for 14\u202fdays. [SVC-MAINDB#3.0]"
+    "answer": "Main\u2011db keeps its full nightly backups and write\u2011ahead logs for 14\u202fdays. The full backup runs at 01:00 each night, and WAL segments are archived every 5\u202fminutes and retained for 14\u202fdays. [SVC-MAINDB#3.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S08",
@@ -572,9 +479,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "I\u2019m sorry, but the provided context does not contain information about the shared infrastructure maintenance window."
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The shared infrastructure maintenance window is every **Tuesday from 02:00\u202fto\u202f04:00 (Algiers time)**. [TEAM-PLATFORM#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S09",
@@ -583,9 +493,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The catalog contains about **180,000 products** from **2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011."
+    "answer": "The catalog contains **180,000 products** from **2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S10",
@@ -594,9 +507,12 @@
     "full": 1.0,
     "mrr": 0.5,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is `card-payments-enabled=false`\u3010RB-PAY-DECLINES#2.0\u3011."
+    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is `card-payments-enabled=false`\u3010RB-PAY-DECLINES#2.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S11",
@@ -605,9 +521,12 @@
     "full": 1.0,
     "mrr": 0.5,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Sentinel should promote the Redis replica within **30\u202fseconds** of a primary failure.  \n[ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]"
+    "answer": "Sentinel should promote the replica within **30\u202fseconds** (failover should take under 30\u202fseconds). [ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S12",
@@ -616,9 +535,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "Only the orders-service explicitly specifies a connection\u2011pool size: it holds a pool of **40 database connections** through PgBouncer. No other service\u2019s pool size is defined in the provided context."
+    "answer": "The PgBouncer configuration gives each service a fixed pool size:\n\n- **orders\u2011service** \u2013 40 connections  \n- **catalog\u2011service** \u2013 30 connections  \n- **payments\u2011gateway** \u2013 20 connections  \n- **imports** \u2013 10 connections  \n\nThese values come from the PgBouncer decision document [ADR\u2011004#2.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S13",
@@ -627,9 +549,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Customers received SMS up to 9\u202fhours late during the incident. [PM-2025-06#1.0]"
+    "answer": "Customers received SMS up to **9 hours late** during the incident. [PM-2025-06#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S14",
@@ -638,9 +563,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "About 3,100 orders were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]"
+    "answer": "About **3,100 orders** were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S15",
@@ -649,9 +577,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The Numidia Pay integration contract promises **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]"
+    "answer": "The Numidia Pay integration contract promises **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "S16",
@@ -660,9 +591,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
-    "answer_fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The events\u2011bus backlog alert fires when any queue holds **more than 50,000 messages** waiting to be processed. [SVC-EVENTS#2.0]"
+    "answer": "The events\u2011bus backlog alert (EventsQueueBacklog) is triggered when any queue on the events bus holds **more than 50,000 waiting messages**. [SVC-EVENTS#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M01",
@@ -671,9 +605,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The primary on\u2011call engineer for the checkout\u2011api service is **Nabil\u202fFerhat**\u3010ONC-PAY#0.0\u3011\u3010SVC-CHECKOUT#0.0\u3011."
+    "answer": "The primary on\u2011call engineer for the checkout\u2011api service is **Nabil\u202fFerhat**\u3010ONC-PAY#0.0\u3011\u3010SVC-CHECKOUT#0.0\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M02",
@@ -682,9 +619,12 @@
     "full": 0.0,
     "mrr": 1.0,
     "fact": 0.0,
+    "ctx_fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The alert **PaymentDeclineRateHigh** is handled by the runbook **RB\u2011PAY\u2011DECLINES** [RB-PAY-DECLINES#0.0].  \nThe escalation contact is the on\u2011call rota for Checkout & Payments, **ONC\u2011PAY**, whose escalation contact is called for any SEV1 or when card payments have been failing for more than 15\u202fminutes [ONC-PAY#1.0]."
+    "answer": "**Runbook that applies:**  \n- **RB\u2011PAY\u2011DECLINES** \u2013 \u201cCard payment declines spike\u201d [RB-PAY-DECLINES#3.0].\n\n**Escalation contact:**  \n- Page the **Checkout & Payments escalation contact** (as stated in the runbook\u2019s Escalate section) [RB-PAY-DECLINES#3.0].",
+    "answer_judge": 0.0,
+    "faithful": 0.0
    },
    {
     "id": "M03",
@@ -692,10 +632,13 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "Page the Platform on\u2011call first (the primary on\u2011call). If they don\u2019t respond within 5\u202fminutes, page the secondary on\u2011call. This follows the Platform on\u2011call rota for a shared infrastructure outage that affects every team. [ONC-PLATFORM#1.0]"
+    "answer": "Page the primary on\u2011call for TEAM\u2011PLATFORM first: **Kamel\u202fBenyahia** (primary on\u2011call for the Platform rota). If no response within 5\u202fminutes, page the secondary, Meriem\u202fAit\u202fAhmed.  \n[ONC-PLATFORM#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M04",
@@ -703,10 +646,13 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 0.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** \u2013 uses Redis for session caching [SVC-AUTH#2.0]  \n- **checkout-api** \u2013 stores carts in Redis [SVC-CHECKOUT#2.0]  \n- **storefront-web** \u2013 caches product pages in Redis for 60\u202fs [SVC-STOREFRONT#2.0]"
+    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** (ID\u202f`SVC-AUTH`) \u2013 uses Redis for session caching\u202f[SVC-AUTH#0.0]  \n- **storefront-web** (ID\u202f`SVC-STOREFRONT`) \u2013 uses Redis for page caching\u202f[SVC-STOREFRONT#0.0]  \n- **checkout-api** (ID\u202f`SVC-CHECKOUT`) \u2013 uses Redis for cart storage\u202f[SVC-CHECKOUT#0.0]  \n\nGraph paths confirm the dependencies:  \n`SVC-REDIS <-[DEPENDS_ON]- SVC-AUTH`, `SVC-REDIS <-[DEPENDS_ON]- SVC-STOREFRONT`, `SVC-REDIS <-[DEPENDS_ON]- SVC-CHECKOUT`.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M05",
@@ -714,10 +660,13 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "If **main\u2011db** goes down, the following services lose critical functionality:\n\n- **orders-service** \u2013 orders are stored in the orders schema of main\u2011db; without the DB the service cannot persist or retrieve orders, causing timeouts and connection\u2011exhaustion alerts. [SVC-ORDERS#2.0]  \n- **auth-service** \u2013 sessions are cached in Redis but also stored in main\u2011db; if the DB is down, no one can sign in. [SVC-AUTH#2.0]  \n- **catalog-service** \u2013 product data lives in the catalog schema of main\u2011db; without it the service cannot serve product pages. [SVC-CATALOG#2.0]  \n- **storefront-web** \u2013 product pages depend on catalog data; when catalog is down the storefront shows a maintenance page. [SVC-STOREFRONT#2.0]  \n\nOther services that rely on main\u2011db indirectly (e.g., search\u2011api via catalog events) may become stale but remain operational."
+    "answer": "If the primary database (SVC\u2011MAINDB) goes down, any service that depends on it cannot function:\n\n* **Orders\u2011service** \u2013 stores orders in the orders schema; without the DB it cannot write or read orders, causing order failures and connection\u2011pool exhaustion. [SVC-ORDERS#0.0] [SVC-ORDERS#2.0]  \n* **Payments\u2011gateway** \u2013 records payment data in main\u2011db; without it payment records cannot be written and the service will time\u2011out. [SVC-PAYMENTS#0.0] [SVC-PAYMENTS#2.0]  \n* **Catalog\u2011service** \u2013 keeps product data in the catalog schema; without the DB it cannot serve product pages. [SVC-CATALOG#0.0] [SVC-CATALOG#2.0]  \n* **Auth\u2011service** \u2013 stores user accounts in main\u2011db; without it no user can sign in. [SVC-AUTH#0.0] [SVC-AUTH#2.0]  \n\nOther services that reference main\u2011db (not listed here) would also be affected.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M06",
@@ -726,9 +675,12 @@
     "full": 0.0,
     "mrr": 1.0,
     "fact": 1.0,
-    "answer_fact": 0.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The outage was caused by the checkout service, which is owned by **TEAM\u2011PAY**\u3010SVC-CHECKOUT#0.0\u3011\u3010ADR-002 -[APPLIES_TO]-> SVC-CHECKOUT -[OWNED_BY]-> TEAM-PAY\u3011"
+    "answer": "The outage was caused by the Redis service (SVC\u2011REDIS).  \nThat service is owned by **Team Platform** (TEAM\u2011PLATFORM)\u3010ADR-002#3.0\u3011\u3010ADR-002 -[APPLIES_TO]-> SVC-REDIS -[OWNED_BY]-> TEAM-PLATFORM\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M07",
@@ -737,9 +689,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
+    "ctx_fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to:\n\n* Add an alert that triggers 30\u202fdays before any external certificate expires, to be in place by\u202f2025\u201108\u201131 [PM-2025-08#3.0].\n* Add a feature flag that can switch checkout to cash\u2011on\u2011delivery only, to be available by\u202f2025\u201108\u201120 [PM-2025-08#3.0].\n* Adopt the broader decision to monitor and automate external certificates, as outlined in ADR\u2011003 [ADR-003#1.0]."
+    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to **monitor and automate external certificates** and to add operational safeguards for future renewals. Specifically, TEAM\u2011PAY will:\n\n* add an alert 30\u202fdays before any external certificate expires by\u202f2025\u201108\u201131, and  \n* add a feature flag to switch checkout to cash\u2011on\u2011delivery only by\u202f2025\u201108\u201120.  \n\nThese actions are documented in the post\u2011mortem and the ADR\u2011003 decision [PM-2025-08#3.0][ADR-003#1.0].",
+    "answer_judge": 0.0,
+    "faithful": 1.0
    },
    {
     "id": "M08",
@@ -748,9 +703,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was replaced by **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER#0.0]. The new runbook does not contain any instruction about manually restarting the primary; it focuses on failover procedures instead. If you need details on restarting the primary, that information is not present in the provided context."
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
+    "grounded": 1.0,
+    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was replaced by **RB\u2011REDIS\u2011FAILOVER**\u202f[RB\u2011REDIS\u2011RESTART#0.0].  \nIn the new runbook it explicitly states: **\u201cNever restart the primary while it is the only healthy node.\u201d**\u202f[RB\u2011REDIS\u2011FAILOVER#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M09",
@@ -759,9 +717,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
+    "ctx_fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "ADR\u2011002 superseded ADR\u2011001 [ADR-002#0.0].  \nRedis now runs as a primary with one replica and Redis Sentinel, which automatically promotes the replica if the primary fails [SVC-REDIS#1.0]."
+    "answer": "ADR\u2011002 superseded ADR\u2011001 [ADR-001#0.0][ADR-002#0.0].  \nRedis now runs as a primary with one replica and Redis Sentinel; the replica is automatically promoted if the primary fails [SVC-REDIS#1.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M10",
@@ -770,9 +731,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The team that owns **search\u2011api** is **TEAM\u2011DISCOVERY**, whose lead is **Imene Djebbar** [TEAM-DISCOVERY#0.0]."
+    "answer": "The team that owns **search\u2011api** is **Search & Catalog** (TEAM\u2011DISCOVERY).  \nIts lead is **Imene Djebbar**\u3010TEAM-DISCOVERY#0.0\u3011.  \nThe ownership link is shown by the graph path **SVC\u2011SEARCH \u2192 OWNED_BY \u2192 TEAM\u2011DISCOVERY**\u3010SVC-SEARCH -[OWNED_BY]-> TEAM-DISCOVERY\u3011.",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M11",
@@ -780,21 +744,27 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Yes \u2013 the events\u2011bus backlog caused an incident (SMS delivery was delayed by up to 9\u202fhours) and the resulting runbook is **RB\u2011EVENTS\u2011BACKLOG**. [PM-2025-06] shows the incident, and the graph links it to the runbook via the service SVC\u2011EVENTS. [PM-2025-06] [RB-EVENTS-BACKLOG]"
+    "grounded": 1.0,
+    "answer": "Yes \u2013 the events\u2011bus (SVC\u2011EVENTS) was the root cause of the 2025\u201106 incident that delayed SMS by up to 9\u202fhours [PM-2025-06#0.0].  The follow\u2011up runbook created to address the backlog is **RB\u2011EVENTS\u2011BACKLOG** [RB-EVENTS-BACKLOG#0.0].",
+    "answer_judge": 0.0,
+    "faithful": 1.0
    },
    {
     "id": "M12",
     "kind": "multi",
-    "recall": 0.5,
-    "full": 0.0,
+    "recall": 1.0,
+    "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
+    "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The notifications\u2011worker service is owned by the **Orders & Delivery** team (TEAM\u2011ORDERS).  \nThe on\u2011call rota for that team is **ONC\u2011ORDERS**:\n\n* **Primary on\u2011call:** Sara\u202fMeziane  \n* **Secondary on\u2011call:** Hamza\u202fToumi  \n\n[ONC\u2011ORDERS]"
+    "answer": "The notifications\u2011worker is owned by **TEAM\u2011ORDERS**.  \nThe on\u2011call rota for that team is:\n\n* **Primary:** Sara\u202fMeziane  \n* **Secondary:** Hamza\u202fToumi  \n* **Escalation:** Rachid\u202fBouzid  \n\n[SVC\u2011NOTIFY#0.0] \u2192 [ONC\u2011ORDERS#0.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M13",
@@ -803,9 +773,12 @@
     "full": 0.0,
     "mrr": 0.5,
     "fact": 0.0,
+    "ctx_fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The Platform team received the following action items from postmortems:\n\n1. Add a dead\u2011letter queue to every queue on the events bus by 2025\u201107\u201115. [PM-2025-06#3.0]  \n2. Run Redis with a replica and Sentinel by 2025\u201104\u201130. [PM-2025-03#3.0]"
+    "answer": "The Platform team received two action items from the postmortems:\n\n1. Add a dead\u2011letter queue to every queue on the events bus by\u202f2025\u201107\u201115.\u202f[PM-2025-06#3.0]  \n2. Run Redis with a replica and Sentinel by\u202f2025\u201104\u201130.\u202f[PM-2025-03#3.0]",
+    "answer_judge": 0.0,
+    "faithful": 1.0
    },
    {
     "id": "M14",
@@ -814,9 +787,12 @@
     "full": 0.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The expired Numidia Pay client certificate caused a failure in the **payments\u2011gateway** service, which handles card payments. Cash\u2011on\u2011delivery orders continued to work because they do not rely on the Numidia Pay processor. [PM-2025-08#1.0] [SVC-PAYMENTS#2.0]"
+    "answer": "The Numidia\u202fPay client\u2011certificate expiry caused a failure in the **payments\u2011gateway** service (SVC\u2011PAYMENTS) \u2013 all card payments were refused for 2\u202fh\u202f10\u202fm until the certificate was renewed. Cash\u2011on\u2011delivery orders continued to work normally. [PM-2025-08#1.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M15",
@@ -824,10 +800,13 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
+    "fact": 0.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "Checkout depends on the external provider **Numidia Pay** for card payments.  \nIts client\u2011certificate expiry alert (`NumidiaPayCertificateExpiry`) is triggered **30\u202fdays before the certificate expires**.  \n\n[SVC-NUMIDIAPAY#3.0]"
+    "answer": "Checkout\u2011API depends on the payments\u2011gateway, which in turn calls the external provider **SVC\u2011NUMIDIAPAY** for card payments.  \nThe certificate alert for Numidia Pay, **NumidiaPayCertificateExpiry**, fires **30\u202fdays before the certificate expires**.  \n\n- Checkout\u2011API \u2192 payments\u2011gateway \u2192 **SVC\u2011NUMIDIAPAY** [SVC-CHECKOUT#0.0][SVC-PAYMENTS#0.0]  \n- Certificate alert timing: 30\u202fdays before expiry [SVC-NUMIDIAPAY#3.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M16",
@@ -836,9 +815,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
+    "ctx_fact": 0.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The orders-service still uses a pool of 40 database connections. [SVC-ORDERS#2.0]"
+    "answer": "The orders\u2011service holds a pool of **40 database connections**\u202f[SVC-ORDERS#2.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M17",
@@ -847,9 +829,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The secondary on\u2011call for the team that owns the payments\u2011gateway service is **Lina Cherif** [ONC-PAY#0.0]."
+    "answer": "The secondary on\u2011call for the team that owns **payments\u2011gateway** is **Lina Cherif** [ONC-PAY#0.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M18",
@@ -858,9 +843,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The only architecture decision that applies to **orders\u2011service** is the PgBouncer configuration:\n\n- **PgBouncer in front of the main database** with a fixed pool of **40 connections** for orders\u2011service.  \n  [ADR-004#2.0] [SVC-ORDERS#0.0]"
+    "answer": "The only architecture decision that applies to **orders\u2011service** is:\n\n- **ADR\u2011004 \u2013 PgBouncer in front of main\u2011db** (orders\u2011service gets a fixed pool of 40 connections)\u3010ADR-004#2.0\u3011",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M19",
@@ -869,9 +857,12 @@
     "full": 0.0,
     "mrr": 0.3333333333333333,
     "fact": 0.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The issue of carts disappearing during checkout is covered by the **RB\u2011REDIS\u2011FAILOVER** runbook, which addresses \u201cconnection refused\u201d or \u201cREADONLY\u201d errors from Redis that cause cart loss. The team responsible for the root cause is **TEAM\u2011PAY**, which owns the checkout path and related services.  \n\n- Runbook: RB\u2011REDIS\u2011FAILOVER [RB-REDIS-FAILOVER]  \n- Owning team: TEAM\u2011PAY [TEAM-PAY]"
+    "answer": "The cart\u2011loss issue is covered by the **RB\u2011REDIS\u2011FAILOVER** runbook, which lists \u201cCarts disappear for customers\u201d as a symptom.  \nThe root cause is the Redis service, which is owned by the **Platform** team.  \n\n- Runbook: **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER#1.0]  \n- Owner team: **TEAM\u2011PLATFORM** [TEAM-PLATFORM#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M20",
@@ -880,20 +871,26 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
+    "ctx_fact": 0.0,
     "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "The post\u2011mortem for the June\u202f2025 events\u2011bus incident lists the notifications\u2011worker (SVC\u2011NOTIFY) as the service that was impacted by the backlog, and the SMS queue backlog threshold is 20\u202f000 messages [PM-2025-06#3.0][SVC-NOTIFY#2.0]. The exact number of SMS that piled up during the incident is not specified in the provided context."
+    "grounded": 1.0,
+    "answer": "The June\u202f2025 events\u2011bus incident broke the message flow for every service that consumes events from the bus.  \nAffected services (directly or indirectly) were:\n\n* **notifications\u2011worker** \u2013 its SMS queue grew and triggered the\u202fSmsQueueBacklog alert [SVC\u2011NOTIFY#2.0].  \n* **orders\u2011service** \u2013 its order events were delayed, causing downstream lag [SVC\u2011ORDERS#1.0].  \n* **delivery\u2011tracker** \u2013 status updates fell behind, firing DeliveryStatusLag [SVC\u2011DELIVERY#2.0].  \n* **payments\u2011gateway** \u2013 payment events stalled, raising PaymentTimeouts [SVC\u2011PAYMENTS#2.0].  \n* **catalog\u2011service** \u2013 product\u2011change events were queued, leading to stale catalog data [SVC\u2011CATALOG#2.0].  \n* **search\u2011api** \u2013 product\u2011change events were delayed, making the index stale [SVC\u2011SEARCH#2.0].\n\nThe runbook for the backlog shows that the **SmsQueueBacklog** alert fires when more than **20,000** SMS messages are waiting in the queue [SVC\u2011NOTIFY#2.0]. Thus, over 20,000 SMS messages piled up during the incident.",
+    "answer_judge": 0.0,
+    "faithful": 0.0
    },
    {
     "id": "M21",
     "kind": "multi",
     "recall": 1.0,
     "full": 1.0,
-    "mrr": 1.0,
+    "mrr": 0.5,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The escalation contact for the database (SVC\u2011MAINDB) that catalog\u2011service depends on is **Sofiane\u202fLarbi** [ONC-PLATFORM#0.0]."
+    "answer": "The database that catalog-service depends on is **SVC\u2011MAINDB**.  \nIts on\u2011call rota is **ONC\u2011PLATFORM**, whose escalation contact is **Sofiane Larbi**.  \n[ONC\u2011PLATFORM#0.0] [SVC\u2011MAINDB#0.0] [SVC\u2011CATALOG#0.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M22",
@@ -902,9 +899,12 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 0.0,
-    "answer_fact": 0.0,
+    "ctx_fact": 1.0,
+    "answer_fact": 1.0,
     "grounded": 1.0,
-    "answer": "The outage led to the decision in **ADR\u2011002** to run Redis with a replica and Sentinel, replacing the single\u2011host setup.  \nFailover should complete in under **15\u202fminutes** \u2013 if Redis is still unhealthy after that, the Platform escalation contact is paged. [ADR-002#1.0] [RB-REDIS-FAILOVER#3.0]"
+    "answer": "The Ramadan\u2011sale outage led to **ADR\u2011002 \u2013 \u201cDecision: Redis with a replica and Sentinel\u201d** being adopted, replacing the earlier single\u2011host approach.  \nThe runbook specifies that a failover should complete in **under 30\u202fseconds**. [ADR\u2011002#2.0]",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    },
    {
     "id": "M23",
@@ -913,39 +913,36 @@
     "full": 1.0,
     "mrr": 1.0,
     "fact": 1.0,
+    "ctx_fact": 1.0,
     "answer_fact": 0.0,
     "grounded": 1.0,
-    "answer": "The storefront\u2019s dependency that is owned by the Checkout & Payments team is the **checkout\u2011api service (SVC\u2011CHECKOUT)**.  \n[TEAM\u2011PAY <-[OWNED_BY]- SVC\u2011CHECKOUT]"
+    "answer": "The storefront\u2011web service depends on **SVC\u2011CHECKOUT** for buying, and that service is owned by the Checkout & Payments team (TEAM\u2011PAY) [SVC-STOREFRONT#0.0][SVC-CHECKOUT#0.0].",
+    "answer_judge": 1.0,
+    "faithful": 1.0
    }
   ]
  },
  "hybrid": {
   "all": {
    "n": 39,
-   "recall": 0.859,
-   "full": 0.692,
-   "mrr": 0.844,
-   "fact": 0.59,
-   "answer_fact": 0.487,
-   "grounded": 0.897
+   "recall": 0.846,
+   "full": 0.667,
+   "mrr": 0.843,
+   "fact": 0.564
   },
   "single": {
    "n": 16,
    "recall": 1.0,
    "full": 1.0,
    "mrr": 0.938,
-   "fact": 0.938,
-   "answer_fact": 0.812,
-   "grounded": 1.0
+   "fact": 1.0
   },
   "multi": {
    "n": 23,
-   "recall": 0.761,
-   "full": 0.478,
-   "mrr": 0.779,
-   "fact": 0.348,
-   "answer_fact": 0.261,
-   "grounded": 0.826
+   "recall": 0.739,
+   "full": 0.435,
+   "mrr": 0.777,
+   "fact": 0.261
   },
   "rows": [
    {
@@ -954,10 +951,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The Redis primary is provisioned with **16\u202fGB of memory**\u3010SVC-REDIS#2.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "S02",
@@ -965,10 +959,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The main\u2011db primary accepts at most 400 connections. [SVC-MAINDB#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S03",
@@ -976,10 +967,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Calls to Numidia Pay time out after 8\u202fseconds and are retried once. [SVC-PAYMENTS#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S04",
@@ -987,10 +975,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "CheckoutHighErrorRate fires when more than 2% of checkout requests return a 5xx error for **5 minutes** [SVC-CHECKOUT#3.0]."
+    "fact": 1.0
    },
    {
     "id": "S05",
@@ -998,10 +983,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "A full rebuild of the search index takes roughly **40\u202fminutes** for 180,000 products. [RB-SEARCH-REINDEX#1.0]"
+    "fact": 1.0
    },
    {
     "id": "S06",
@@ -1009,10 +991,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The notifications worker sends about **90,000 SMS per day** [SVC-NOTIFY#1.0]."
+    "fact": 1.0
    },
    {
     "id": "S07",
@@ -1020,10 +999,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Main\u2011db keeps full nightly backups and write\u2011ahead logs for 14\u202fdays. [SVC-MAINDB#3.0]"
+    "fact": 1.0
    },
    {
     "id": "S08",
@@ -1031,10 +1007,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The shared infrastructure maintenance window is every Tuesday from\u202f02:00\u202fto\u202f04:00\u202fAlgiers time. [TEAM-PLATFORM#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S09",
@@ -1042,10 +1015,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The catalog contains **180,000 products** from **2,400 sellers**\u3010TEAM-DISCOVERY#1.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "S10",
@@ -1053,10 +1023,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The feature flag that switches checkout to cash\u2011on\u2011delivery only is `card-payments-enabled=false`\u3010RB-PAY-DECLINES#2.0\u3011."
+    "fact": 1.0
    },
    {
     "id": "S11",
@@ -1064,10 +1031,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Sentinel should promote the Redis replica within **30\u202fseconds** of a primary failure.  \n[ADR-002#2.0] [RB-REDIS-FAILOVER#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S12",
@@ -1075,10 +1039,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "Only the orders\u2011service has a documented pool size: it holds a pool of 40 database connections through PgBouncer. No other service\u2019s pool size is specified in the provided context."
+    "fact": 1.0
    },
    {
     "id": "S13",
@@ -1086,10 +1047,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "Customers received order\u2011confirmation SMS up to **9 hours late** during the incident. [PM-2025-06#1.0]"
+    "fact": 1.0
    },
    {
     "id": "S14",
@@ -1097,10 +1055,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "About 3,100 orders were not placed when carts were lost during the Ramadan sale. [PM-2025-03#1.0]"
+    "fact": 1.0
    },
    {
     "id": "S15",
@@ -1108,10 +1063,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The Numidia Pay integration contract promises **99.9\u202f% monthly availability**. [SVC-NUMIDIAPAY#2.0]"
+    "fact": 1.0
    },
    {
     "id": "S16",
@@ -1119,10 +1071,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The events\u2011bus backlog alert fires when any queue holds more than **50,000** waiting messages. [SVC-EVENTS#2.0]"
+    "fact": 1.0
    },
    {
     "id": "M01",
@@ -1130,10 +1079,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The primary on\u2011call engineer for the **checkout\u2011api** service is **Nabil\u202fFerhat**.  \n[SVC-CHECKOUT#0.0] \u2192 [TEAM-PAY] \u2192 [ONC-PAY#0.0] (Primary: Nabil Ferhat)"
+    "fact": 1.0
    },
    {
     "id": "M02",
@@ -1141,32 +1087,23 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The alert **PaymentDeclineRateHigh** is handled by the runbook **RB\u2011PAY\u2011DECLINES** [RB-PAY-DECLINES#0.0].  \nThe escalation contact is the on\u2011call rota for Checkout & Payments, **ONC\u2011PAY**, whose escalation contact is called for any SEV1 or when card payments have been failing for more than 15\u202fminutes [ONC-PAY#1.0]."
+    "fact": 0.0
    },
    {
     "id": "M03",
     "kind": "multi",
-    "recall": 1.0,
-    "full": 1.0,
+    "recall": 0.5,
+    "full": 0.0,
     "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "Page the Platform on\u2011call first (the primary on\u2011call). If they don\u2019t respond within 5\u202fminutes, page the secondary. [ONC-PLATFORM#1.0]"
+    "fact": 0.0
    },
    {
     "id": "M04",
     "kind": "multi",
-    "recall": 0.3333333333333333,
+    "recall": 0.6666666666666666,
     "full": 0.0,
     "mrr": 0.3333333333333333,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The services that depend directly on **redis\u2011cache** are:\n\n- **auth-service** \u2013 uses Redis for session caching [SVC-REDIS<-[DEPENDS_ON]-SVC-AUTH].\n- **checkout-api** \u2013 stores carts in Redis [SVC-REDIS<-[DEPENDS_ON]-SVC-CHECKOUT].\n- **storefront-web** \u2013 caches product pages in Redis for 60\u202fs [SVC-REDIS<-[DEPENDS_ON]-SVC-STOREFRONT]."
+    "fact": 0.0
    },
    {
     "id": "M05",
@@ -1174,10 +1111,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 0.25,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "If **main\u2011db** goes down, the following services lose critical functionality:\n\n- **orders-service** \u2013 orders are stored in the orders schema of main\u2011db; without the DB the service cannot persist or retrieve orders, causing timeouts and connection\u2011exhaustion alerts. [SVC-ORDERS#2.0]  \n- **auth-service** \u2013 sessions are cached in Redis but also stored in main\u2011db; if the DB is down, no one can sign in. [SVC-AUTH#2.0]  \n- **catalog-service** \u2013 product data lives in the catalog schema of main\u2011db; without it the service cannot serve product pages, and the storefront will show a maintenance page. [SVC-CATALOG#2.0]  \n- **storefront-web** \u2013 relies on catalog data; when catalog is down, product pages fail and the site falls back to a maintenance view. [SVC-STOREFRONT#2.0]  \n\nOther services that depend on main\u2011db (e.g., search\u2011api indirectly via catalog events) may become stale or fail to index new changes, but the primary breakage is in orders, auth, catalog, and storefront."
+    "fact": 0.0
    },
    {
     "id": "M06",
@@ -1185,10 +1119,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The outage was caused by the checkout service, which is owned by **TEAM\u2011PAY**\u3010SVC-CHECKOUT#0.0\u3011\u3010ADR-002 -[APPLIES_TO]-> SVC-CHECKOUT -[OWNED_BY]-> TEAM-PAY\u3011"
+    "fact": 0.0
    },
    {
     "id": "M07",
@@ -1196,10 +1127,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "After the August\u202f2025 card\u2011payment outage, the team decided to:\n\n* Add an alert that triggers 30\u202fdays before any external certificate expires, to be in place by\u202f2025\u201108\u201131. [PM-2025-08#3.0]  \n* Add a feature flag that allows the checkout to switch to cash\u2011on\u2011delivery only, to be enabled by\u202f2025\u201108\u201120. [PM-2025-08#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M08",
@@ -1207,10 +1135,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "The old Redis restart runbook (RB\u2011REDIS\u2011RESTART) was replaced by **RB\u2011REDIS\u2011FAILOVER** [RB-REDIS-FAILOVER#0.0]. The new runbook does not contain any instruction about manually restarting the primary; it focuses on failover procedures instead. If you need details on restarting the primary, that information is not present in the provided context."
+    "fact": 0.0
    },
    {
     "id": "M09",
@@ -1218,10 +1143,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "ADR\u2011002 superseded ADR\u2011001 [ADR-002#0.0][ADR-001#0.0].  \nSince April\u202f2025 Redis runs as a primary with one replica and Redis\u202fSentinel, which automatically promotes the replica if the primary fails [SVC-REDIS#1.0]."
+    "fact": 0.0
    },
    {
     "id": "M10",
@@ -1229,10 +1151,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The team that owns **search\u2011api** is **TEAM\u2011DISCOVERY**, whose lead is **Imene Djebbar** [TEAM-DISCOVERY#0.0]."
+    "fact": 1.0
    },
    {
     "id": "M11",
@@ -1240,10 +1159,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "Yes \u2013 the events\u2011bus backlog caused an incident (SMS delivery was delayed by up to 9\u202fhours) and the resulting runbook is **RB\u2011EVENTS\u2011BACKLOG**. [PM-2025-06] shows the incident, and the graph links it to the runbook via the service SVC\u2011EVENTS. [PM-2025-06] [RB-EVENTS-BACKLOG]"
+    "fact": 0.0
    },
    {
     "id": "M12",
@@ -1251,10 +1167,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The notifications\u2011worker service is owned by **TEAM\u2011ORDERS** [SVC\u2011NOTIFY#2.0 \u2192 TEAM\u2011ORDERS].  \nThe on\u2011call rota for that team is **ONC\u2011ORDERS** [ONC\u2011ORDERS].  \nSo the primary on\u2011call engineer is **Sara\u202fMeziane** and the secondary is **Hamza\u202fToumi**."
+    "fact": 0.0
    },
    {
     "id": "M13",
@@ -1262,10 +1175,7 @@
     "recall": 0.6666666666666666,
     "full": 0.0,
     "mrr": 0.5,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The Platform team received the following action items from the post\u2011mortems:\n\n1. **Add a dead\u2011letter queue to every queue on the events bus** by 2025\u201107\u201115.  \n   [PM-2025-06#3.0]\n\n2. **Run Redis with a replica and Sentinel** by 2025\u201104\u201130.  \n   [PM-2025-03#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M14",
@@ -1273,10 +1183,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The expired Numidia Pay client certificate caused a failure in the **payments\u2011gateway** service, which handles card payments. Cash\u2011on\u2011delivery orders continued to work because they do not rely on the Numidia Pay processor. [PM-2025-08#1.0] [SVC-PAYMENTS#2.0]"
+    "fact": 1.0
    },
    {
     "id": "M15",
@@ -1284,10 +1191,7 @@
     "recall": 0.5,
     "full": 0.0,
     "mrr": 0.25,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "Checkout depends on the external provider **Numidia\u202fPay** for card payments.  \nIts certificate alert, **NumidiaPayCertificateExpiry**, fires **30\u202fdays before the client certificate expires**. [SVC-NUMIDIAPAY#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M16",
@@ -1295,10 +1199,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The orders-service still uses a pool of 40 database connections. [SVC-ORDERS#2.0]"
+    "fact": 0.0
    },
    {
     "id": "M17",
@@ -1306,10 +1207,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 0.5,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The secondary on\u2011call for the team that owns the payments\u2011gateway service is **Lina\u202fCherif** [ONC-PAY#0.0]."
+    "fact": 1.0
    },
    {
     "id": "M18",
@@ -1317,21 +1215,15 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The only architecture decision that applies to **orders\u2011service** is the PgBouncer configuration:\n\n* All services, including orders\u2011service, connect through PgBouncer in transaction mode with a fixed pool of **40 connections** for orders\u2011service.  \n  [ADR-004#2.0] [SVC-ORDERS#0.0]"
+    "fact": 1.0
    },
    {
     "id": "M19",
     "kind": "multi",
-    "recall": 0.6666666666666666,
+    "recall": 0.3333333333333333,
     "full": 0.0,
-    "mrr": 0.25,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The issue of carts disappearing during checkout is covered by the **RB\u2011REDIS\u2011FAILOVER** runbook, which addresses Redis connection problems that cause cart loss [RB-REDIS-FAILOVER].  \nThe root cause falls under the **SVC\u2011CHECKOUT** service, which is owned by the **Team\u202fPay** (Checkout & Payments) team [SVC-CHECKOUT] \u2192 [OWNED_BY] [TEAM-PAY]."
+    "mrr": 0.2,
+    "fact": 0.0
    },
    {
     "id": "M20",
@@ -1339,10 +1231,7 @@
     "recall": 0.6666666666666666,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 0.0,
-    "answer": "The post\u2011mortem for the June\u202f2025 events\u2011bus incident lists the notifications\u2011worker (SVC\u2011NOTIFY) as the service that was impacted by the backlog, and the SMS queue backlog threshold is 20\u202f000 messages [PM-2025-06#3.0][SVC-NOTIFY#2.0]. The exact number of SMS that piled up during the incident is not specified in the provided context."
+    "fact": 0.0
    },
    {
     "id": "M21",
@@ -1350,10 +1239,7 @@
     "recall": 0.6666666666666666,
     "full": 0.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 1.0,
-    "grounded": 1.0,
-    "answer": "The escalation contact for the database that catalog-service depends on (SVC\u2011MAINDB) is **Sofiane\u202fLarbi**\u3010ONC-PLATFORM#0.0\u3011."
+    "fact": 0.0
    },
    {
     "id": "M22",
@@ -1361,10 +1247,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 0.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The outage led to the decision in **ADR\u2011002** to run Redis with a replica and Sentinel instead of a single host, changing how Redis operates in the system.  \nThe failover runbook (**RB\u2011REDIS\u2011FAILOVER**) specifies that if Redis is not healthy, the Platform escalation contact should be paged after **15\u202fminutes** \u2013 meaning failover should complete within that window.  \n\n[ADR-002#1.0] [RB-REDIS-FAILOVER#3.0]"
+    "fact": 0.0
    },
    {
     "id": "M23",
@@ -1372,10 +1255,7 @@
     "recall": 1.0,
     "full": 1.0,
     "mrr": 1.0,
-    "fact": 1.0,
-    "answer_fact": 0.0,
-    "grounded": 1.0,
-    "answer": "The storefront\u2019s only dependency that is owned by the Checkout & Payments team is the **checkout\u2011api service (SVC\u2011CHECKOUT)**.  \n[SVC-STOREFRONT#0.0] \u2192 depends on \u2192 [SVC-CHECKOUT#2.0] and [SVC-CHECKOUT#2.0] is owned by [TEAM-PAY#1.0]\u3010SVC-STOREFRONT#0.0\u3011\u3010SVC-CHECKOUT#2.0\u3011\u3010TEAM-PAY#1.0\u3011"
+    "fact": 1.0
    }
   ]
  }

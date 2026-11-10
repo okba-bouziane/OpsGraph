@@ -61,6 +61,9 @@ class FakeRetriever:
         self.calls.append((retriever, k))
         return RetrievalResult(retriever, [self.chunk])
 
+    def with_evidence(self, question, result):
+        return result
+
 
 def test_flow_without_database_answers_and_cites():
     fake = FakeRetriever("Calls to the card processor time out after 8 seconds and are retried once.")
@@ -79,3 +82,29 @@ def test_flow_retries_once_with_graph_when_ungrounded():
     out = ask(build_flow(fake, Liar()), "How much memory does Redis have?", k=4)
     assert fake.calls == [("vector", 4), ("graph", 8)]
     assert out["grounded"] is False and out["mode"] == "llm"
+
+
+def test_answer_step_reads_the_evidence_chunks():
+    class Recorder:
+        prompts: list[str] = []
+
+        def chat(self, system, user, temperature=0.0):
+            Recorder.prompts.append(user)
+            return (
+                "single"
+                if "Classify" in system
+                else ("yes" if "supported by" in system else "Restart the replica [RB-1#1.0].")
+            )
+
+    class WithEvidence(FakeRetriever):
+        def with_evidence(self, question, result):
+            body = RetrievedChunk("RB-1#1.0", "RB-1", "Never restart the primary; fail over first.", 0.5, "evidence")
+            return RetrievalResult(result.retriever, result.chunks + [body], result.paths, result.seeds)
+
+    out = ask(
+        build_flow(WithEvidence("Runbook RB-1 owner: TEAM-PLATFORM."), Recorder()), "How do I restart redis?", k=1
+    )
+    answer_prompt = next(p for p in Recorder.prompts if p.startswith("Question:"))
+    assert "[RB-1#1.0] Never restart the primary" in answer_prompt
+    assert out["citations"] == ["RB-1#1.0"]
+    assert "evidence: +1 chunks" in out["trace"]

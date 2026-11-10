@@ -41,8 +41,9 @@ CLASSIFY_PROMPT = (
 ANSWER_PROMPT = (
     "Answer the on-call engineer's question using ONLY the context. Be short and practical. Cite "
     "the chunk ids in square brackets after each claim, e.g. [SVC-CHECKOUT#2.0]. Use the graph "
-    "paths to connect documents (service -> owner team -> on-call rota). If the context does not "
-    "contain the answer, say so."
+    "paths to connect documents (service -> owner team -> on-call rota). Give names, ids, numbers and "
+    "commands exactly as the context writes them (for example the person to page, the service id, the "
+    "rule a runbook states). If the context does not contain the answer, say so."
 )
 CHECK_PROMPT = "Reply 'yes' if every claim in the answer is supported by the context, otherwise 'no'. One word."
 CITATION_RE = re.compile(r"[\[【]([A-Za-z0-9-]+#\d+\.\d+)[\]】]")  # models sometimes emit 【 】 brackets
@@ -142,7 +143,13 @@ def build_flow(retriever: Retriever, llm: LLMClient | None = None, llm_check: bo
         if state["attempts"] > 0:  # retry once, wider, with the graph
             name, k = "graph", k * 2
         result = retriever.retrieve(state["question"], name, k)
-        return {"result": result, "retriever": name, "trace": state["trace"] + [f"retrieve: {name} k={k}"]}
+        result = retriever.with_evidence(state["question"], result)
+        extra = sum(c.via == "evidence" for c in result.chunks)
+        return {
+            "result": result,
+            "retriever": name,
+            "trace": state["trace"] + [f"retrieve: {name} k={k}", f"evidence: +{extra} chunks"],
+        }
 
     def answer(state: FlowState) -> FlowState:
         if llm:
